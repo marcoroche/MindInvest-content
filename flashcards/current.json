@@ -1,0 +1,597 @@
+{
+  "schemaVersion": 1,
+  "flashcards": [
+    {
+      "id": "fc_etf",
+      "tags": [
+        "ETF",
+        "Tracker"
+      ],
+      "category": "INVESTMENT_BASICS",
+      "level": 1,
+      "translations": {
+        "fr": {
+          "front": "ETF / Tracker",
+          "back": "Exchange-Traded Fund : un fonds qui réplique un indice et se négocie en bourse en continu, comme une simple action.",
+          "explanation": "Contrairement à une SICAV classique valorisée une fois par jour, l'ETF se vend et s'achète en temps réel. En français, on l'appelle « Tracker » car il traque un indice."
+        },
+        "en": {
+          "front": "ETF / Tracker",
+          "back": "Exchange-Traded Fund: a fund that replicates an index and trades on exchanges continuously, like a regular stock.",
+          "explanation": "Unlike a traditional mutual fund priced once a day, ETFs trade in real time."
+        }
+      }
+    },
+    {
+      "id": "fc_pea",
+      "tags": [
+        "PEA"
+      ],
+      "category": "INVESTMENT_BASICS",
+      "level": 1,
+      "translations": {
+        "fr": {
+          "front": "PEA",
+          "back": "Plan d'Épargne en Actions : enveloppe fiscale française (plafond de 150 000 €) dont les plus-values sont exonérées d'impôt après 5 ans de détention.",
+          "explanation": "Seuls les ETF éligibles (réplication synthétique ou actions européennes) y sont logeables. Les retraits avant 5 ans clôturent le plan et déclenchent la fiscalité."
+        },
+        "en": {
+          "front": "PEA",
+          "back": "French savings plan (capped at €150,000) whose capital gains are tax-free after 5 years of holding.",
+          "explanation": "Only PEA-eligible ETFs can be held. Early withdrawals close the plan and trigger taxes."
+        }
+      }
+    },
+    {
+      "id": "fc_cto",
+      "tags": [
+        "CTO"
+      ],
+      "category": "INVESTMENT_BASICS",
+      "level": 1,
+      "translations": {
+        "fr": {
+          "front": "CTO",
+          "back": "Compte-Titres Ordinaire : compte sans avantage fiscal spécifique, qui donne accès à tous les marchés mondiaux et à toutes les classes d'actifs.",
+          "explanation": "Le CTO complète le PEA : il est indispensable pour investir hors Europe. Chaque cession y est imposable."
+        },
+        "en": {
+          "front": "CTO",
+          "back": "Ordinary securities account with no specific tax advantage, giving access to all world markets and asset classes.",
+          "explanation": "The CTO complements the PEA: it is required to invest outside Europe. Every sale is taxable."
+        }
+      }
+    },
+    {
+      "id": "fc_diversification",
+      "tags": [
+        "Diversification",
+        "Diversification large"
+      ],
+      "category": "INVESTMENT_BASICS",
+      "level": 1,
+      "translations": {
+        "fr": {
+          "front": "Diversification",
+          "back": "Répartir son capital entre plusieurs zones géographiques, secteurs et classes d'actifs pour réduire le risque spécifique d'un seul titre.",
+          "explanation": "Le « repas gratuit » de la finance : à rendement égal, un portefeuille diversifié est moins volatile. Un ETF World diversifie sur des milliers d'entreprises en un seul ordre."
+        },
+        "en": {
+          "front": "Diversification",
+          "back": "Spreading capital across geographies, sectors and asset classes to reduce the risk of any single holding.",
+          "explanation": "Finance's only 'free lunch': at equal return, a diversified portfolio is less volatile."
+        }
+      }
+    },
+    {
+      "id": "fc_coeur",
+      "tags": [
+        "Cœur de portefeuille"
+      ],
+      "category": "PORTFOLIO_STRATEGY",
+      "level": 2,
+      "translations": {
+        "fr": {
+          "front": "Cœur de portefeuille",
+          "back": "La partie centrale et largement diversifiée de votre portefeuille (souvent un ETF World ou ACWI), qui porte l'essentiel de la performance long terme.",
+          "explanation": "Stratégie « cœur-satellite » : le cœur (80-90 %) est passif et diversifié ; les satellites (10-20 %) sont des paris thématiques ou sectoriels, à risque limité."
+        },
+        "en": {
+          "front": "Core portfolio",
+          "back": "The central, broadly diversified part of your portfolio (often a World ETF) that carries most of the long-term performance.",
+          "explanation": "'Core-satellite' strategy: the core (80-90%) is passive and diversified; satellites (10-20%) are thematic bets with limited risk."
+        }
+      }
+    },
+    {
+      "id": "fc_frais",
+      "tags": [
+        "TER",
+        "Frais réduits",
+        "Frais bas",
+        "Low-cost"
+      ],
+      "category": "INVESTMENT_BASICS",
+      "level": 1,
+      "translations": {
+        "fr": {
+          "front": "TER (Total Expense Ratio)",
+          "back": "Coût annuel total d'un ETF, prélevé automatiquement dans sa valeur liquidative. 0,20 % = 2 € par an pour 1 000 € investis.",
+          "explanation": "Aucune facture reçue : les frais sont captés chaque jour de façon transparente dans le cours de l'ETF. Sur 20 ans, 1 % de frais en moins peut représenter plus de 20 % de capital en plus."
+        },
+        "en": {
+          "front": "TER (Total Expense Ratio)",
+          "back": "An ETF's total annual cost, deducted automatically from its net asset value. 0.20% = €2 per year per €1,000 invested.",
+          "explanation": "No bill received: fees are captured daily inside the ETF price. Over 20 years, 1% lower fees can mean over 20% more capital."
+        }
+      }
+    },
+    {
+      "id": "fc_couverture_change",
+      "tags": [
+        "Couverture de change",
+        "Couverture",
+        "Hedged"
+      ],
+      "category": "RISK_MANAGEMENT",
+      "level": 2,
+      "translations": {
+        "fr": {
+          "front": "Couverture de change",
+          "back": "Mécanisme (hedging) qui neutralise l'effet des fluctuations EUR/USD ou EUR/JPY sur la performance d'un ETF international.",
+          "explanation": "Un ETF US non couvert peut perdre en euros même si l'indice monte, si le dollar baisse. La couverture apporte de la stabilité mais a un coût et n'est jamais parfaite."
+        },
+        "en": {
+          "front": "Currency hedging",
+          "back": "A mechanism neutralizing EUR/USD or EUR/JPY fluctuations on an international ETF's performance.",
+          "explanation": "An unhedged US ETF can lose in euros even when the index rises, if the dollar falls."
+        }
+      }
+    },
+    {
+      "id": "fc_synthetic",
+      "tags": [
+        "Synthétique",
+        "Swap"
+      ],
+      "category": "ETF_MECHANICS",
+      "level": 2,
+      "translations": {
+        "fr": {
+          "front": "Réplication synthétique",
+          "back": "L'ETF ne détient pas directement les titres : il échange un swap avec une banque pour répliquer exactement l'indice, y compris international, dans un PEA.",
+          "explanation": "Le swap rend logables en PEA des indices mondiaux comme le MSCI World. Le risque de contrepartie existe mais est encadré (collateral, diversification des banques)."
+        },
+        "en": {
+          "front": "Synthetic replication",
+          "back": "The ETF does not hold the securities directly: it uses a swap with a bank to replicate the index exactly — even worldwide indices inside a PEA.",
+          "explanation": "The swap makes indices like MSCI World PEA-eligible. Counterparty risk exists but is regulated through collateral."
+        }
+      }
+    },
+    {
+      "id": "fc_accumulation",
+      "tags": [
+        "Accumulation",
+        "Capitalisation"
+      ],
+      "category": "ETF_MECHANICS",
+      "level": 1,
+      "translations": {
+        "fr": {
+          "front": "ETF « Acc » (Accumulation)",
+          "back": "Les dividendes reçus sont automatiquement réinvestis dans le fonds : la valeur de part progresse, sans versement de cash.",
+          "explanation": "La capitalisation des dividendes est le moteur des intérêts composés. Dans un PEA, l'Accumulation est souvent plus simple et plus efficace fiscalement."
+        },
+        "en": {
+          "front": "Acc ETF (Accumulation)",
+          "back": "Dividends are automatically reinvested in the fund: the share price grows, with no cash payout.",
+          "explanation": "Dividend compounding drives compound interest. Within a PEA, Accumulation is usually simpler and more tax-efficient."
+        }
+      }
+    },
+    {
+      "id": "fc_distribution",
+      "tags": [
+        "Distribution",
+        "Dividendes"
+      ],
+      "category": "ETF_MECHANICS",
+      "level": 1,
+      "translations": {
+        "fr": {
+          "front": "ETF « Dist » (Distribution)",
+          "back": "L'ETF verse périodiquement les dividendes en cash sur votre compte (trimestriellement, semestriellement ou annuellement).",
+          "explanation": "Utile si l'on recherche un revenu régulier. Attention : en CTO, chaque versement est imposable dès la perception, alors que l'Accumulation diffère tout."
+        },
+        "en": {
+          "front": "Dist ETF (Distribution)",
+          "back": "The ETF pays dividends in cash to your account periodically (quarterly, semi-annually or annually).",
+          "explanation": "Useful for regular income. In a taxable account each payout is taxed immediately, unlike Accumulation."
+        }
+      }
+    },
+    {
+      "id": "fc_esg",
+      "tags": [
+        "ESG",
+        "Investissement responsable",
+        "Responsable"
+      ],
+      "category": "INVESTMENT_BASICS",
+      "level": 2,
+      "translations": {
+        "fr": {
+          "front": "ESG",
+          "back": "Environmental, Social, Governance : filtre qui sélectionne les entreprises aux meilleures pratiques environnementales, sociales et de gouvernance.",
+          "explanation": "Un ETF ESG garde une performance proche de l'indice de départ en excluant les pires acteurs. Le « E » de climat est aujourd'hui le critère le plus structurant."
+        },
+        "en": {
+          "front": "ESG",
+          "back": "Environmental, Social, Governance: a filter selecting companies with the best sustainability practices.",
+          "explanation": "An ESG ETF keeps performance close to the parent index while excluding the worst actors."
+        }
+      }
+    },
+    {
+      "id": "fc_theme",
+      "tags": [
+        "Thématique"
+      ],
+      "category": "PORTFOLIO_STRATEGY",
+      "level": 2,
+      "translations": {
+        "fr": {
+          "front": "ETF thématique",
+          "back": "ETF concentré sur un seul thème (eau, luxe, technologie...). Fort potentiel de croissance, mais paris sectoriel à doser avec prudence.",
+          "explanation": "Un thème peut rester porteur longtemps... ou décevoir : personne ne sait si le thème est déjà intégré dans les cours. Règle usuelle : maximum 10-15 % du portefeuille en satellites thématiques."
+        },
+        "en": {
+          "front": "Thematic ETF",
+          "back": "An ETF focused on a single theme (water, luxury, tech...). High growth potential, but a concentrated bet to size carefully.",
+          "explanation": "Usual rule: cap satellites at 10-15% of the portfolio."
+        }
+      }
+    },
+    {
+      "id": "fc_eau",
+      "tags": [
+        "Eau"
+      ],
+      "category": "THEMES",
+      "level": 2,
+      "translations": {
+        "fr": {
+          "front": "Économie de l'eau",
+          "back": "Thème investissant dans toute la chaîne de valeur de l'eau : traitement, distribution, infrastructures et technologies.",
+          "explanation": "Rareté croissante, infrastructures à rénover, réglementation : des moteurs structurels long terme, sur un enjeu climatique moins encombré."
+        },
+        "en": {
+          "front": "Water economy",
+          "back": "A theme investing across the entire water value chain: treatment, distribution, infrastructure and technology.",
+          "explanation": "Growing scarcity, aging infrastructure and regulation are structural drivers over the long term."
+        }
+      }
+    },
+    {
+      "id": "fc_blue",
+      "tags": [
+        "Économie Bleue",
+        "Océans"
+      ],
+      "category": "THEMES",
+      "level": 2,
+      "translations": {
+        "fr": {
+          "front": "Économie bleue",
+          "back": "Investir dans l'usage durable des ressources océaniques : aquaculture, énergies marines, gestion côtière, transport maritime propre.",
+          "explanation": "L'océan produit la moitié de l'oxygène de la planète et absorbe l'essentiel de l'excès de chaleur : la transition bleue est un enjeu majeur."
+        },
+        "en": {
+          "front": "Blue economy",
+          "back": "Investing in the sustainable use of ocean resources: aquaculture, marine energy, coastal management and clean shipping.",
+          "explanation": "The ocean produces half the planet's oxygen and absorbs most excess heat."
+        }
+      }
+    },
+    {
+      "id": "fc_leverage",
+      "tags": [
+        "Levier Inverse",
+        "Avertissement",
+        "Court terme"
+      ],
+      "category": "ADVANCED",
+      "level": 4,
+      "translations": {
+        "fr": {
+          "front": "ETF à levier / inverse",
+          "back": "Produits amplifiant la variation quotidienne d'un indice (×2, -1x, -2x). Le reset quotidien crée un phénomène de beta-slippage.",
+          "explanation": "Même si l'indice finit plat, un ETF ×2 peut perdre de l'argent sur la durée à cause de la volatilité. Réservé au court terme et aux investisseurs avertis : instruments de couverture ou de trading, pas d'investissement long terme."
+        },
+        "en": {
+          "front": "Leveraged / inverse ETF",
+          "back": "Products amplifying an index's daily move (2x, -1x, -2x). Daily reset creates beta-slippage.",
+          "explanation": "Even a flat index can make a 2x ETF lose money over time. Short-term instruments only, not for long-term investing."
+        }
+      }
+    },
+    {
+      "id": "fc_monetaire",
+      "tags": [
+        "Prudent",
+        "Monétaire",
+        "Poche de liquidité"
+      ],
+      "category": "PORTFOLIO_STRATEGY",
+      "level": 2,
+      "translations": {
+        "fr": {
+          "front": "ETF monétaire / court terme",
+          "back": "Fonds très bas risque suivant des taux courts (obligations de moins d'un an). Sert de poche de liquidité dans un PEA.",
+          "explanation": "Placer son cash « en attente » dans un ETF court terme permet de rester dans l'enveloppe fiscale tout en réduisant le risque de taux."
+        },
+        "en": {
+          "front": "Money-market / short-term ETF",
+          "back": "Very low-risk funds tracking short-term rates (bonds under one year). Acts as a cash pocket inside a PEA.",
+          "explanation": "Parking cash in a short-term ETF keeps you inside the tax wrapper while reducing rate risk."
+        }
+      }
+    },
+    {
+      "id": "fc_sectoriel",
+      "tags": [
+        "Sectoriel",
+        "Télécoms",
+        "Assurance"
+      ],
+      "category": "PORTFOLIO_STRATEGY",
+      "level": 3,
+      "translations": {
+        "fr": {
+          "front": "ETF sectoriel",
+          "back": "ETF concentré sur un seul secteur (télécoms, assurance, santé...). Potentiel élevé mais volatilité accrue et diversification réduite.",
+          "explanation": "Les secteurs cycliques alternent fortement : le timing est décisif. À réserver à la partie satellite du portefeuille, jamais au cœur."
+        },
+        "en": {
+          "front": "Sector ETF",
+          "back": "An ETF focused on a single sector (telecoms, insurance, healthcare...). High potential but higher volatility and reduced diversification.",
+          "explanation": "Reserve them for the satellite part of your portfolio, never the core."
+        }
+      }
+    },
+    {
+      "id": "fc_luxe",
+      "tags": [
+        "Luxe"
+      ],
+      "category": "THEMES",
+      "level": 3,
+      "translations": {
+        "fr": {
+          "front": "ETF Luxe",
+          "back": "Panier mondial des entreprises de biens et services de luxe (LVMH, Hermès, Kering...). Secteur à marges exceptionnelles.",
+          "explanation": "Le luxe combine pricing power et croissance tirée par les consommateurs fortunés, mais reste sensible à la conjoncture mondiale et à la Chine."
+        },
+        "en": {
+          "front": "Luxury ETF",
+          "back": "A global basket of luxury goods companies (LVMH, Hermès, Kering...). Exceptional margins.",
+          "explanation": "Luxury combines pricing power with wealthy-consumer growth, but stays sensitive to the world economy and China."
+        }
+      }
+    },
+    {
+      "id": "fc_sp500",
+      "tags": [
+        "S&P 500",
+        "Large Cap US"
+      ],
+      "category": "INDICES",
+      "level": 1,
+      "translations": {
+        "fr": {
+          "front": "S&P 500",
+          "back": "Indice des 500 plus grandes entreprises américaines : la référence mondiale de la performance des grandes capitalisations US.",
+          "explanation": "Les 7 plus grandes valeurs technologiques pèsent aujourd'hui plus de 30 % de l'indice : investir dans le S&P 500, c'est avant tout un pari sur les géants US."
+        },
+        "en": {
+          "front": "S&P 500",
+          "back": "The index of the 500 largest US companies: the global benchmark for large-cap performance.",
+          "explanation": "The top 7 tech stocks now weigh over 30% of the index."
+        }
+      }
+    },
+    {
+      "id": "fc_cac40",
+      "tags": [
+        "CAC 40",
+        "France",
+        "Large Cap"
+      ],
+      "category": "INDICES",
+      "level": 1,
+      "translations": {
+        "fr": {
+          "front": "CAC 40",
+          "back": "Indice des 40 plus grandes capitalisations cotées à Euronext Paris. Baromètre de l'économie française.",
+          "explanation": "Un CAC 40 « Total Return » (dividendes réinvestis) a historiquement surperformé le CAC 40 prix : les dividendes comptent pour environ un tiers de la performance long terme."
+        },
+        "en": {
+          "front": "CAC 40",
+          "back": "The index of the 40 largest companies listed on Euronext Paris. The barometer of the French economy.",
+          "explanation": "The total-return CAC 40 historically beats the price index."
+        }
+      }
+    },
+    {
+      "id": "fc_europe",
+      "tags": [
+        "Europe",
+        "Zone Euro",
+        "Large & Mid Cap",
+        "Blue Chips"
+      ],
+      "category": "INDICES",
+      "level": 1,
+      "translations": {
+        "fr": {
+          "front": "Europe / Zone Euro",
+          "back": "Indices comme le STOXX Europe 600 (600 entreprises, 17 pays) ou l'Euro Stoxx 50 (50 blue chips de la zone euro).",
+          "explanation": "Diversification géographique de proximité, éligible PEA, valorisations souvent plus basses qu'aux États-Unis — mais poids moindre de la tech mondiale."
+        },
+        "en": {
+          "front": "Europe / Eurozone",
+          "back": "Indices like STOXX Europe 600 (600 companies, 17 countries) or Euro Stoxx 50 (50 eurozone blue chips).",
+          "explanation": "Nearby geographic diversification, PEA-eligible, with lower valuations than the US."
+        }
+      }
+    },
+    {
+      "id": "fc_emergents",
+      "tags": [
+        "Émergents",
+        "Dynamique"
+      ],
+      "category": "INDICES",
+      "level": 3,
+      "translations": {
+        "fr": {
+          "front": "Marchés émergents",
+          "back": "Chine, Inde, Taïwan, Brésil... Croissance économique plus forte, mais volatilité et risques politiques plus élevés.",
+          "explanation": "La portion « dynamique » d'un portefeuille : à doser (5-15 %). Certains ETF PEA (via swap) permettent d'y être exposé dans l'enveloppe fiscale."
+        },
+        "en": {
+          "front": "Emerging markets",
+          "back": "China, India, Taiwan, Brazil... Stronger economic growth but higher volatility and political risk.",
+          "explanation": "The 'dynamic' slice of a portfolio: size it carefully (5-15%)."
+        }
+      }
+    },
+    {
+      "id": "fc_japon",
+      "tags": [
+        "Japon",
+        "Asie",
+        "Hors Japon"
+      ],
+      "category": "INDICES",
+      "level": 3,
+      "translations": {
+        "fr": {
+          "front": "Asie / Japon",
+          "back": "Exposition au marché japonais (TOPIX, Nikkei) ou asiatique hors Japon (Corée, Taïwan, Australie...).",
+          "explanation": "Le Japon souffre ou profite du yen : un ETF en euros non couvert ajoute un pari sur la devise. Complément de diversification du cœur World."
+        },
+        "en": {
+          "front": "Asia / Japan",
+          "back": "Exposure to the Japanese market (TOPIX, Nikkei) or Asia ex-Japan (Korea, Taiwan, Australia...).",
+          "explanation": "Japan swings with the yen: an unhedged EUR ETF adds a currency bet."
+        }
+      }
+    },
+    {
+      "id": "fc_acwi",
+      "tags": [
+        "ACWI",
+        "Global Total"
+      ],
+      "category": "INDICES",
+      "level": 2,
+      "translations": {
+        "fr": {
+          "front": "ACWI",
+          "back": "All Country World Index : pays développés ET émergents dans un seul indice. La diversification mondiale maximale en un produit.",
+          "explanation": "Environ 85 % développés / 15 % émergents. Un seul ETF ACWI peut constituer à lui seul le cœur d'un portefeuille passif."
+        },
+        "en": {
+          "front": "ACWI",
+          "back": "All Country World Index: developed AND emerging markets in one index. Maximum global diversification in one product.",
+          "explanation": "About 85% developed / 15% emerging. A single ACWI ETF can be the entire core of a passive portfolio."
+        }
+      }
+    },
+    {
+      "id": "fc_croissance",
+      "tags": [
+        "Technologie",
+        "Croissance"
+      ],
+      "category": "THEMES",
+      "level": 3,
+      "translations": {
+        "fr": {
+          "front": "Technologie / Croissance",
+          "back": "Indices concentrés sur l'innovation (NASDAQ-100...). Historiquement très performants, mais valorisations élevées et volatilité forte.",
+          "explanation": "Attention à la concentration : le NASDAQ-100 est dominé par 5-6 sociétés. Un thème déjà très présent au sein du S&P 500."
+        },
+        "en": {
+          "front": "Tech / Growth",
+          "back": "Innovation-focused indices (NASDAQ-100...). Historically strong performers, but rich valuations and high volatility.",
+          "explanation": "Watch concentration: the NASDAQ-100 is dominated by 5-6 names."
+        }
+      }
+    },
+    {
+      "id": "fc_compound",
+      "tags": [
+        "Intérêts composés"
+      ],
+      "category": "INVESTMENT_BASICS",
+      "level": 1,
+      "translations": {
+        "fr": {
+          "front": "Intérêts composés",
+          "back": "Gagner des rendements sur ses rendements : la croissance devient exponentielle avec le temps.",
+          "explanation": "10 000 € à 7 % par an deviennent environ 40 000 € en 20 ans et 160 000 € en 40 ans. Le temps est la variable la plus puissante de l'investissement — d'où l'intérêt de commencer tôt."
+        },
+        "en": {
+          "front": "Compound interest",
+          "back": "Earning returns on your returns: growth becomes exponential over time.",
+          "explanation": "€10,000 at 7% a year becomes ≈ €40,000 in 20 years and ≈ €160,000 in 40 years."
+        }
+      }
+    },
+    {
+      "id": "fc_beta",
+      "tags": [
+        "Bêta",
+        "Volatilité"
+      ],
+      "category": "RISK_MANAGEMENT",
+      "level": 2,
+      "translations": {
+        "fr": {
+          "front": "Bêta (β)",
+          "back": "Mesure la sensibilité d'un actif aux mouvements du marché. β < 1 : moins volatile que le marché ; β > 1 : amplifié.",
+          "explanation": "Un ETF World a un β proche de 1 par construction. Un ETF NASDAQ-100 affiche un β bien supérieur : à coupler avec votre horizon et votre tolérance aux pertes."
+        },
+        "en": {
+          "front": "Beta (β)",
+          "back": "Measures an asset's sensitivity to market moves. β < 1: less volatile than the market; β > 1: amplified.",
+          "explanation": "A World ETF has a beta near 1 by construction."
+        }
+      }
+    },
+    {
+      "id": "fc_pe",
+      "tags": [
+        "P/E",
+        "Valorisation"
+      ],
+      "category": "ANALYSIS",
+      "level": 2,
+      "translations": {
+        "fr": {
+          "front": "P/E (Price Earnings)",
+          "back": "Nombre d'années de bénéfices que vous payez pour acheter une action : cours ÷ bénéfice par action.",
+          "explanation": "P/E < 15 : plutôt bon marché ; 15-25 : raisonnable ; > 25 : cher (ou forte croissance attendue). À comparer au sein d'un même secteur, jamais entre secteurs différents."
+        },
+        "en": {
+          "front": "P/E (Price Earnings)",
+          "back": "How many years of earnings you pay to buy a share: price ÷ earnings per share.",
+          "explanation": "P/E < 15: cheap-ish; 15-25: reasonable; > 25: expensive (or high growth expected)."
+        }
+      }
+    }
+  ]
+}
