@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "description": "Reusable ETF learning rules. Rules select localized explanations from ETF characteristics; templates support placeholders.",
+  "rules": [
+    {
+      "id": "rule.etf.fees",
+      "conceptId": "etf.fees",
+      "type": "MICRO_TIP",
+      "order": 10,
+      "minLevel": 1,
+      "condition": "ALWAYS",
+      "placeholders": [
+        "expenseRatioPercent"
+      ],
+      "translations": {
+        "fr": {
+          "title": "Où vont les {{expenseRatioPercent}} % de frais ?",
+          "body": "Pas de facture séparée : les frais de gestion sont prélevés progressivement sur les actifs du fonds et se reflètent dans la valeur de l'ETF."
+        },
+        "en": {
+          "title": "Where do the {{expenseRatioPercent}}% fees go?",
+          "body": "There is no separate bill: management fees are deducted progressively from the fund's assets and are reflected in the ETF's value."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "rule.etf.pea.synthetic",
+      "conceptId": "etf.synthetic-replication",
+      "type": "MICRO_TIP",
+      "order": 20,
+      "minLevel": 1,
+      "condition": "PEA_SYNTHETIC",
+      "translations": {
+        "fr": {
+          "title": "Éligible au PEA grâce à la réplication synthétique",
+          "body": "Un contrat d'échange (swap) permet à cet ETF de suivre un indice qui ne serait pas directement accessible dans un PEA via une réplication physique."
+        },
+        "en": {
+          "title": "PEA eligible through synthetic replication",
+          "body": "A swap agreement allows this ETF to track an index that may not be directly accessible in a PEA through physical replication."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "rule.etf.pea.physical",
+      "conceptId": "etf.synthetic-replication",
+      "type": "MICRO_TIP",
+      "order": 21,
+      "minLevel": 1,
+      "condition": "PEA_PHYSICAL",
+      "translations": {
+        "fr": {
+          "title": "Éligible au PEA",
+          "body": "L'éligibilité au PEA dépend des règles fiscales applicables et des caractéristiques du fonds. Consultez la documentation de l'émetteur pour confirmer les modalités de réplication."
+        },
+        "en": {
+          "title": "PEA eligible",
+          "body": "PEA eligibility depends on applicable tax rules and fund characteristics. Check the issuer's documentation to confirm the replication method."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "rule.etf.pea.ineligible",
+      "conceptId": "etf.pea-eligibility",
+      "type": "MICRO_TIP",
+      "order": 22,
+      "minLevel": 1,
+      "condition": "PEA_INELIGIBLE",
+      "translations": {
+        "fr": {
+          "title": "Éligibilité au compte",
+          "body": "D'après les données disponibles, cet ETF n'est pas indiqué comme éligible au PEA. Vérifiez sa documentation et les règles de votre courtier avant d'investir."
+        },
+        "en": {
+          "title": "Account eligibility",
+          "body": "Based on the available data, this ETF is not marked as PEA eligible. Check its documentation and your broker's rules before investing."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "rule.etf.accumulating",
+      "conceptId": "etf.distribution",
+      "type": "MICRO_TIP",
+      "order": 30,
+      "minLevel": 1,
+      "condition": "ACCUMULATING",
+      "translations": {
+        "fr": {
+          "title": "ETF capitalisant",
+          "body": "Les revenus perçus par le fonds sont réinvestis plutôt que distribués directement aux investisseurs. Le traitement fiscal dépend notamment de l'enveloppe de détention."
+        },
+        "en": {
+          "title": "Accumulating ETF",
+          "body": "Income received by the fund is reinvested rather than paid directly to investors. Tax treatment also depends on the account in which you hold it."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "rule.etf.distributing",
+      "conceptId": "etf.distribution",
+      "type": "MICRO_TIP",
+      "order": 31,
+      "minLevel": 1,
+      "condition": "DISTRIBUTING",
+      "translations": {
+        "fr": {
+          "title": "ETF distribuant",
+          "body": "Les revenus distribuables du fonds peuvent être versés aux investisseurs. Le montant et la fréquence des distributions ne sont pas garantis."
+        },
+        "en": {
+          "title": "Distributing ETF",
+          "body": "The fund may pay distributable income to investors. The amount and frequency of distributions are not guaranteed."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "rule.etf.currency.hedged",
+      "conceptId": "etf.currency-hedging",
+      "type": "MICRO_TIP",
+      "order": 40,
+      "minLevel": 2,
+      "condition": "CURRENCY_HEDGED",
+      "translations": {
+        "fr": {
+          "title": "Couverture du risque de change",
+          "body": "La couverture vise à réduire l'effet des variations de change, mais elle n'élimine pas tous les risques et peut générer des coûts ou des écarts de performance."
+        },
+        "en": {
+          "title": "Currency hedging",
+          "body": "Hedging aims to reduce the impact of exchange-rate movements, but it does not eliminate all risks and may introduce costs or tracking differences."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "rule.etf.currency.unhedged",
+      "conceptId": "etf.currency-risk",
+      "type": "MICRO_TIP",
+      "order": 41,
+      "minLevel": 1,
+      "condition": "FOREIGN_EXPOSURE_UNHEDGED",
+      "translations": {
+        "fr": {
+          "title": "Comprendre le risque de change",
+          "body": "Si les actifs sous-jacents sont exposés à des devises étrangères et que le fonds n'est pas couvert, les variations de change peuvent augmenter ou réduire la performance mesurée en euros."
+        },
+        "en": {
+          "title": "Understanding currency risk",
+          "body": "If the underlying assets are exposed to foreign currencies and the fund is unhedged, exchange-rate movements can increase or reduce returns measured in euros."
+        }
+      },
+      "status": "active",
+      "version": 1
+    }
+  ]
+}
