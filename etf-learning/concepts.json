@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "description": "Stable pedagogical concepts referenced by dynamic ETF learning content.",
+  "concepts": [
+    {
+      "id": "etf.profile.summary",
+      "category": "ETF_BASICS",
+      "tags": [
+        "ETF",
+        "profile"
+      ],
+      "minLevel": 1,
+      "status": "active"
+    },
+    {
+      "id": "etf.fees",
+      "category": "ETF_BASICS",
+      "tags": [
+        "fees",
+        "TER",
+        "cost"
+      ],
+      "minLevel": 1,
+      "status": "active"
+    },
+    {
+      "id": "etf.synthetic-replication",
+      "category": "ETF_BASICS",
+      "tags": [
+        "replication",
+        "swap",
+        "PEA"
+      ],
+      "minLevel": 1,
+      "status": "active"
+    },
+    {
+      "id": "etf.fee-comparison",
+      "category": "ETF_COMPARISON",
+      "tags": [
+        "fees",
+        "comparison"
+      ],
+      "minLevel": 1,
+      "status": "active"
+    },
+    {
+      "id": "etf.currency-risk",
+      "category": "RISK",
+      "tags": [
+        "currency",
+        "EUR",
+        "USD",
+        "risk"
+      ],
+      "minLevel": 1,
+      "status": "active"
+    },
+    {
+      "id": "etf.currency-hedging",
+      "category": "RISK",
+      "tags": [
+        "currency",
+        "hedging"
+      ],
+      "minLevel": 2,
+      "status": "active"
+    },
+    {
+      "id": "etf.esg-screening",
+      "category": "ETF_STRATEGY",
+      "tags": [
+        "ESG",
+        "screening"
+      ],
+      "minLevel": 1,
+      "status": "active"
+    }
+  ]
+}

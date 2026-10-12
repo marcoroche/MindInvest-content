@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "description": "Extracted ETF summaries and micro-tips. Stable IDs are independent of display language and Compose UI.",
+  "contents": [
+    {
+      "id": "etf-summary-cw8-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "CW8.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Exposition mondiale aux pays développés. Idéal pour débuter et diversifier en PEA."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "tip-ter-in-price",
+      "conceptId": "etf.fees",
+      "type": "MICRO_TIP",
+      "legacyType": "WARNING_OR_INFO",
+      "level": 1,
+      "order": 0,
+      "appliesToAssetIds": [
+        "CW8.PA"
+      ],
+      "translations": {
+        "fr": {
+          "title": "Où vont les 0,38% de frais ?",
+          "body": "Pas de facture reçue ! Les frais sont prélevés directement et de façon transparente au jour le jour dans la valeur liquidative de l'ETF."
+        },
+        "en": {
+          "title": "Where do the 0.38% fees go?",
+          "body": "No bill to pay! Fees are deducted directly and transparently on a daily basis from the ETF's net asset value."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "tip-pea-swap",
+      "conceptId": "etf.synthetic-replication",
+      "type": "MICRO_TIP",
+      "legacyType": "FEATURE",
+      "level": 1,
+      "order": 1,
+      "appliesToAssetIds": [
+        "CW8.PA"
+      ],
+      "translations": {
+        "fr": {
+          "title": "Du MSCI World dans un PEA ?",
+          "body": "Oui, grâce à un mécanisme de réplication synthétique (Swap) qui permet d'émettre des actions internationales logables en France."
+        },
+        "en": {
+          "title": "MSCI World in a PEA?",
+          "body": "Yes, thanks to a synthetic replication mechanism (Swap) that allows holding international equities within a French PEA."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-wld-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "WLD.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Alternative à CW8 par iShares avec des frais plus compétitifs (0,25%)."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "tip-wld-alternative",
+      "conceptId": "etf.fee-comparison",
+      "type": "MICRO_TIP",
+      "legacyType": "FEATURE",
+      "level": 1,
+      "order": 0,
+      "appliesToAssetIds": [
+        "WLD.PA"
+      ],
+      "translations": {
+        "fr": {
+          "title": "Alternative à 0,25% de frais",
+          "body": "Cet ETF d'iShares offre la même réplication MSCI World en PEA avec 0,13% de frais en moins par an par rapport à CW8."
+        },
+        "en": {
+          "title": "Alternative at 0.25% TER",
+          "body": "This iShares ETF provides the same MSCI World replication in a PEA with 0.13% lower fees per year compared to CW8."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-dcam-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "DCAM.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "L'un des ETF MSCI World éligibles au PEA les moins chers du marché (0,20% TER)."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-ese-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "ESE.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Exposition aux 500 plus grandes entreprises américaines via BNP Paribas."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-pe500-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "PE500.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Incontournable pour s'exposer aux géants américains en PEA."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "tip-currency-risk",
+      "conceptId": "etf.currency-risk",
+      "type": "MICRO_TIP",
+      "legacyType": "WARNING_OR_INFO",
+      "level": 1,
+      "order": 0,
+      "appliesToAssetIds": [
+        "PE500.PA"
+      ],
+      "translations": {
+        "fr": {
+          "title": "Attention au cours EUR/USD",
+          "body": "Non couvert en devise : si le Dollar américain perd de la valeur par rapport à l'Euro, la performance de l'ETF en Euros sera impactée."
+        },
+        "en": {
+          "title": "Watch out for EUR/USD rates",
+          "body": "Unhedged: if the US Dollar weakens against the Euro, ETF returns converted into Euros will be reduced."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-psph-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "PSPH.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Protège contre le risque de variation de la parité EUR/USD."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "tip-hedging-explained",
+      "conceptId": "etf.currency-hedging",
+      "type": "MICRO_TIP",
+      "legacyType": "FEATURE",
+      "level": 1,
+      "order": 0,
+      "appliesToAssetIds": [
+        "PSPH.PA"
+      ],
+      "translations": {
+        "fr": {
+          "title": "Couverture de change intégrée (Hedged)",
+          "body": "Un mécanisme financier neutralise l'impact des fluctuations du Dollar pour que votre performance reflète fidèlement la hausse du S&P 500."
+        },
+        "en": {
+          "title": "Built-in Currency Hedging",
+          "body": "A financial mechanism neutralizes Dollar exchange rate variations so that performance matches the S&P 500 index growth."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-psp5-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "PSP5.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Filtre le S&P 500 selon des critères Environnementaux, Sociaux et de Gouvernance (ESG)."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "tip-esg-filter",
+      "conceptId": "etf.esg-screening",
+      "type": "MICRO_TIP",
+      "legacyType": "FEATURE",
+      "level": 1,
+      "order": 0,
+      "appliesToAssetIds": [
+        "PSP5.PA"
+      ],
+      "translations": {
+        "fr": {
+          "title": "Filtre responsable ESG",
+          "body": "Exclut les sociétés non conformes aux critères environnementaux et sociaux tout en conservant une performance proche de l'indice principal."
+        },
+        "en": {
+          "title": "ESG Responsible Filter",
+          "body": "Excludes companies that do not comply with environmental and social criteria while keeping returns close to the benchmark."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-pust-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "PUST.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Forte concentration sur les valeurs technologiques et de croissance américaines."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-meud-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "MEUD.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Couvre 600 entreprises majeures réparties dans 17 pays européens."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-etz-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "ETZ.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Alternative physique de BNP Paribas sur l'indice STOXX Europe 600."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-ptpxe-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "PTPXE.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Exposition directe aux 40 fleurons de l'économie française."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-mse-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "MSE.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Concentré sur les 50 plus grandes capitalisations de la zone euro."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-paeem-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "PAEEM.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Exposition globale aux pays émergents (Chine, Inde, Taïwan, etc.) réservée au CTO."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-plem-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "PLEM.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Permet d'intégrer les marchés émergents dans son PEA grâce à un Swap."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-pjpn-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "PJPN.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Réplique l'ensemble du marché boursier japonais éligible au PEA."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-paasi-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "PAASI.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Cible la région Asie-Pacifique émergente et développée sans le Japon."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-pea-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "PEA.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Investit dans les entreprises mondiales de la chaîne de valeur de l'eau (traitement, distribution, infrastructure)."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-lct-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "LCT.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Cible l'utilisation durable des ressources océaniques et maritimes."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-pceu-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "PCEU.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Exposition diversifiée aux grandes et moyennes valeurs européennes en PEA."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-gpea-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "GPEA.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Couvre à la fois les pays développés et émergents en un seul ordre PEA."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-mlux-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "MLUX.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Cible spécifiquement le secteur des biens et services de luxe mondiaux."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-obli-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "OBLI.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Permet de sécuriser de la trésorerie dans un PEA sans sortir de l'enveloppe fiscale."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-cacc-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "CACC.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "CAC 40 classique qui réinvestit automatiquement les dividendes."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-cac-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "CAC.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Distribue périodiquement les dividendes des entreprises du CAC 40 sur le compte de l'investisseur."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-ca40-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "CA40.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Variante de réplication du CAC 40."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-c40-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "C40.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Exclut les entreprises du CAC 40 ayant les moins bonnes pratiques ESG."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-bx4-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "BX4.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Produit dérivé à effet de levier inverse -2x. Réinitialisé quotidiennement. Risque élevé de bêta-slippage."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-tele-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "TELE.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Exposition concentrée au secteur des télécommunications en Europe."
+        }
+      },
+      "status": "active",
+      "version": 1
+    },
+    {
+      "id": "etf-summary-ins-pa",
+      "conceptId": "etf.profile.summary",
+      "type": "ETF_SUMMARY",
+      "level": 1,
+      "appliesToAssetIds": [
+        "INS.PA"
+      ],
+      "translations": {
+        "fr": {
+          "body": "Exposition au secteur des compagnies d'assurance européennes."
+        }
+      },
+      "status": "active",
+      "version": 1
+    }
+  ]
+}
