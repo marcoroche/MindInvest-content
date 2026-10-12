@@ -6,7 +6,8 @@ Dynamic pedagogic content for the MindInvest App. Allows the evolution of the ap
 
 - `flashcards/current.json`: existing flashcard catalogue.
 - `etf-learning/concepts.json`: stable, language-independent concept identifiers and pedagogical tags.
-- `etf-learning/current.json`: ETF summaries and micro-tips extracted from the current Android ETF catalogues.
+- `etf-learning/current.json`: ETF summaries and editorial micro-tips extracted from the current Android ETF catalogues.
+- `etf-learning/rules.json`: reusable localized micro-tip templates selected by generic ETF-characteristic conditions.
 
 ## ETF learning schema (v1)
 
@@ -21,4 +22,6 @@ Each content item has a stable `id`, a `conceptId`, a content `type`, a `level`,
 
 The files under `etf-learning/` establish the external data model for Step 1. The Android app has not yet been switched to consume this catalogue; that integration and removal of the duplicated embedded fields will be handled in a subsequent app change. Until then, the existing embedded catalogue remains the runtime source.
 
-Validate JSON and referenced concept IDs before publishing a new catalogue version.
+Rule conditions supported by the Android selector: `ALWAYS`, `PEA_SYNTHETIC`, `PEA_PHYSICAL`, `PEA_INELIGIBLE`, `ACCUMULATING`, `DISTRIBUTING`, `CURRENCY_HEDGED`, and `FOREIGN_EXPOSURE_UNHEDGED`. Templates may use declared placeholders such as `{{expenseRatioPercent}}`.
+
+Validate JSON, condition names, placeholders, and referenced concept IDs before publishing a new catalogue version.
