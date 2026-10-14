@@ -67,7 +67,7 @@ def validate_catalog(catalog, label="catalog"):
             errors.append(f"{where}.category must be a non-empty string")
 
         status = notion.get("status")
-        if status not in ALLOWED_STATUSES:
+        if not isinstance(status, str) or status not in ALLOWED_STATUSES:
             errors.append(f"{where}.status must be one of: {', '.join(sorted(ALLOWED_STATUSES))}")
 
         translations = notion.get("translations")
