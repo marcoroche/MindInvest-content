@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "description": "Stable, localized learning notions used by MindInvest Play & Learn. IDs must remain stable because completion is persisted by ID.",
+  "defaultLanguage": "fr",
+  "supportedLanguages": [
+    "fr",
+    "en",
+    "de",
+    "es"
+  ],
+  "notions": [
+    {
+      "id": "etf-index",
+      "category": "ETF",
+      "status": "active",
+      "translations": {
+        "fr": {
+          "title": "Un ETF suit un indice",
+          "explanation": "Un ETF cherche à reproduire la performance d’un indice. Il permet d’investir en une seule ligne dans un ensemble de titres."
+        },
+        "en": {
+          "title": "An ETF tracks an index",
+          "explanation": "An ETF aims to track the performance of an index. It lets you invest in a basket of securities through a single product."
+        },
+        "de": {
+          "title": "Ein ETF bildet einen Index ab",
+          "explanation": "Ein ETF versucht, die Wertentwicklung eines Index nachzubilden. So kannst du mit einem einzigen Produkt in viele Wertpapiere investieren."
+        },
+        "es": {
+          "title": "Un ETF sigue un índice",
+          "explanation": "Un ETF busca replicar la rentabilidad de un índice. Permite invertir en una cesta de valores con un solo producto."
+        }
+      }
+    },
+    {
+      "id": "etf-fees",
+      "category": "ETF",
+      "status": "active",
+      "translations": {
+        "fr": {
+          "title": "Les frais comptent",
+          "explanation": "Les frais réduisent le rendement qui reste dans votre poche. Comparez-les avec l’indice suivi et la qualité de réplication."
+        },
+        "en": {
+          "title": "Fees matter",
+          "explanation": "Fees reduce the return you keep. Compare them alongside the index tracked and the quality of tracking."
+        },
+        "de": {
+          "title": "Kosten sind wichtig",
+          "explanation": "Gebühren verringern deine Rendite. Vergleiche sie zusammen mit dem abgebildeten Index und der Qualität der Nachbildung."
+        },
+        "es": {
+          "title": "Las comisiones importan",
+          "explanation": "Las comisiones reducen la rentabilidad que conservas. Compáralas junto con el índice seguido y la calidad de la réplica."
+        }
+      }
+    },
+    {
+      "id": "etf-replication",
+      "category": "ETF",
+      "status": "active",
+      "translations": {
+        "fr": {
+          "title": "La réplication peut être physique ou synthétique",
+          "explanation": "La réplication physique détient les titres directement ou par échantillonnage. La réplication synthétique utilise des instruments financiers, notamment des swaps."
+        },
+        "en": {
+          "title": "Replication can be physical or synthetic",
+          "explanation": "Physical replication holds the securities directly or samples them. Synthetic replication uses financial instruments, notably swaps."
+        },
+        "de": {
+          "title": "Die Nachbildung kann physisch oder synthetisch sein",
+          "explanation": "Bei der physischen Nachbildung hält der ETF die Wertpapiere direkt oder in einer Auswahl. Die synthetische Nachbildung nutzt Finanzinstrumente, insbesondere Swaps."
+        },
+        "es": {
+          "title": "La réplica puede ser física o sintética",
+          "explanation": "La réplica física mantiene los valores directamente o mediante una selección. La réplica sintética utiliza instrumentos financieros, especialmente swaps."
+        }
+      }
+    },
+    {
+      "id": "market-volatility",
+      "category": "Marchés",
+      "status": "active",
+      "translations": {
+        "fr": {
+          "title": "La volatilité n’est pas une perte définitive",
+          "explanation": "Le prix peut fluctuer à court terme. Une baisse reste un risque réel ; vendre à ce niveau transforme la moins-value en perte réalisée."
+        },
+        "en": {
+          "title": "Volatility is not necessarily a permanent loss",
+          "explanation": "Prices can fluctuate in the short term. A decline is still a real risk; selling at that point turns an unrealized loss into a realized one."
+        },
+        "de": {
+          "title": "Volatilität bedeutet nicht automatisch einen dauerhaften Verlust",
+          "explanation": "Kurse können kurzfristig schwanken. Ein Rückgang bleibt ein echtes Risiko; wer dann verkauft, realisiert den bis dahin nur buchmäßigen Verlust."
+        },
+        "es": {
+          "title": "La volatilidad no implica una pérdida definitiva",
+          "explanation": "Los precios pueden fluctuar a corto plazo. Una caída sigue siendo un riesgo real; vender en ese momento convierte la pérdida no realizada en una pérdida realizada."
+        }
+      }
+    },
+    {
+      "id": "market-diversification",
+      "category": "Marchés",
+      "status": "active",
+      "translations": {
+        "fr": {
+          "title": "Diversifier répartit les risques",
+          "explanation": "Répartir les investissements entre de nombreux titres limite la dépendance à une seule entreprise, sans supprimer le risque de marché."
+        },
+        "en": {
+          "title": "Diversification spreads risk",
+          "explanation": "Spreading investments across many securities reduces reliance on a single company, but it does not eliminate market risk."
+        },
+        "de": {
+          "title": "Diversifikation verteilt Risiken",
+          "explanation": "Wer in viele Wertpapiere investiert, verringert die Abhängigkeit von einem einzelnen Unternehmen. Das Marktrisiko bleibt jedoch bestehen."
+        },
+        "es": {
+          "title": "Diversificar distribuye el riesgo",
+          "explanation": "Repartir las inversiones entre muchos valores reduce la dependencia de una sola empresa, pero no elimina el riesgo de mercado."
+        }
+      }
+    },
+    {
+      "id": "portfolio-dca",
+      "category": "Portefeuille",
+      "status": "active",
+      "translations": {
+        "fr": {
+          "title": "Investir régulièrement discipline l’effort",
+          "explanation": "Des versements réguliers aident à suivre une stratégie sans chercher le meilleur moment. Ils ne garantissent ni gain ni protection contre les pertes."
+        },
+        "en": {
+          "title": "Regular investing builds discipline",
+          "explanation": "Regular contributions help you stick to a strategy without trying to time the market. They guarantee neither gains nor protection from losses."
+        },
+        "de": {
+          "title": "Regelmäßiges Investieren schafft Disziplin",
+          "explanation": "Regelmäßige Einzahlungen helfen dir, einer Strategie zu folgen, statt den perfekten Einstiegszeitpunkt zu suchen. Gewinne oder Schutz vor Verlusten sind dadurch nicht garantiert."
+        },
+        "es": {
+          "title": "Invertir con regularidad fomenta la disciplina",
+          "explanation": "Las aportaciones periódicas ayudan a seguir una estrategia sin intentar adivinar el mejor momento. No garantizan ganancias ni protección frente a pérdidas."
+        }
+      }
+    },
+    {
+      "id": "portfolio-horizon",
+      "category": "Portefeuille",
+      "status": "active",
+      "translations": {
+        "fr": {
+          "title": "L’horizon change le risque acceptable",
+          "explanation": "Un objectif proche laisse moins de temps pour absorber une baisse. L’allocation doit tenir compte de la date et de la flexibilité de l’objectif."
+        },
+        "en": {
+          "title": "Your time horizon changes the risk you can take",
+          "explanation": "A near-term goal leaves less time to recover from a decline. Your allocation should reflect the target date and how flexible the goal is."
+        },
+        "de": {
+          "title": "Der Anlagehorizont beeinflusst das tragbare Risiko",
+          "explanation": "Bei einem nahen Ziel bleibt weniger Zeit, einen Rückgang auszugleichen. Die Aufteilung sollte den Zieltermin und die Flexibilität des Ziels berücksichtigen."
+        },
+        "es": {
+          "title": "El horizonte cambia el riesgo asumible",
+          "explanation": "Un objetivo cercano deja menos tiempo para recuperarse de una caída. La distribución debe tener en cuenta la fecha y la flexibilidad del objetivo."
+        }
+      }
+    },
+    {
+      "id": "psychology-panic",
+      "category": "Psychologie",
+      "status": "active",
+      "translations": {
+        "fr": {
+          "title": "Une baisse peut déclencher une décision impulsive",
+          "explanation": "La peur pousse parfois à vendre au pire moment. Définir son plan à l’avance aide à prendre du recul."
+        },
+        "en": {
+          "title": "A market drop can trigger an impulsive decision",
+          "explanation": "Fear can sometimes lead investors to sell at the worst moment. Defining a plan in advance helps create some distance."
+        },
+        "de": {
+          "title": "Ein Kursrückgang kann impulsive Entscheidungen auslösen",
+          "explanation": "Angst kann dazu führen, dass Anleger zum ungünstigsten Zeitpunkt verkaufen. Ein vorher festgelegter Plan hilft, Abstand zu gewinnen."
+        },
+        "es": {
+          "title": "Una caída puede provocar una decisión impulsiva",
+          "explanation": "El miedo puede llevar a vender en el peor momento. Definir un plan de antemano ayuda a tomar distancia."
+        }
+      }
+    }
+  ]
+}
