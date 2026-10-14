@@ -1,0 +1,45 @@
+name: Validate learning notions catalog
+
+on:
+  pull_request:
+    paths:
+      - "learning-notions/catalog.json"
+      - "scripts/validate_learning_notions.py"
+      - ".github/workflows/validate-learning-notions.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "learning-notions/catalog.json"
+      - "scripts/validate_learning_notions.py"
+      - ".github/workflows/validate-learning-notions.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate catalog and stable IDs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Validate JSON structure and translations
+        run: python scripts/validate_learning_notions.py
+
+      - name: Prevent removal of stable notion IDs
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.ref }}
+        run: |
+          git fetch origin "$BASE_REF"
+          git show "origin/$BASE_REF:learning-notions/catalog.json" > /tmp/learning-notions-baseline.json
+          python scripts/validate_learning_notions.py --baseline /tmp/learning-notions-baseline.json
