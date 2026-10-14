@@ -2,34 +2,17 @@
   "schemaVersion": 1,
   "description": "Stable, localized learning notions used by MindInvest Play & Learn. IDs must remain stable because completion is persisted by ID.",
   "defaultLanguage": "fr",
-  "supportedLanguages": [
-    "fr",
-    "en",
-    "de",
-    "es"
-  ],
+  "supportedLanguages": ["fr", "en", "de", "es"],
   "notions": [
     {
       "id": "etf-index",
       "category": "ETF",
       "status": "active",
       "translations": {
-        "fr": {
-          "title": "Un ETF suit un indice",
-          "explanation": "Un ETF cherche à reproduire la performance d’un indice. Il permet d’investir en une seule ligne dans un ensemble de titres."
-        },
-        "en": {
-          "title": "An ETF tracks an index",
-          "explanation": "An ETF aims to track the performance of an index. It lets you invest in a basket of securities through a single product."
-        },
-        "de": {
-          "title": "Ein ETF bildet einen Index ab",
-          "explanation": "Ein ETF versucht, die Wertentwicklung eines Index nachzubilden. So kannst du mit einem einzigen Produkt in viele Wertpapiere investieren."
-        },
-        "es": {
-          "title": "Un ETF sigue un índice",
-          "explanation": "Un ETF busca replicar la rentabilidad de un índice. Permite invertir en una cesta de valores con un solo producto."
-        }
+        "fr": {"title": "Un ETF suit un indice", "explanation": "Un ETF cherche à reproduire la performance d’un indice. Il permet d’investir en une seule ligne dans un ensemble de titres."},
+        "en": {"title": "An ETF tracks an index", "explanation": "An ETF aims to track the performance of an index. It lets you invest in a basket of securities through a single product."},
+        "de": {"title": "Ein ETF bildet einen Index ab", "explanation": "Ein ETF versucht, die Wertentwicklung eines Index nachzubilden. So kannst du mit einem einzigen Produkt in viele Wertpapiere investieren."},
+        "es": {"title": "Un ETF sigue un índice", "explanation": "Un ETF busca replicar la rentabilidad de un índice. Permite invertir en una cesta de valores con un solo producto."}
       }
     },
     {
@@ -37,22 +20,10 @@
       "category": "ETF",
       "status": "active",
       "translations": {
-        "fr": {
-          "title": "Les frais comptent",
-          "explanation": "Les frais réduisent le rendement qui reste dans votre poche. Comparez-les avec l’indice suivi et la qualité de réplication."
-        },
-        "en": {
-          "title": "Fees matter",
-          "explanation": "Fees reduce the return you keep. Compare them alongside the index tracked and the quality of tracking."
-        },
-        "de": {
-          "title": "Kosten sind wichtig",
-          "explanation": "Gebühren verringern deine Rendite. Vergleiche sie zusammen mit dem abgebildeten Index und der Qualität der Nachbildung."
-        },
-        "es": {
-          "title": "Las comisiones importan",
-          "explanation": "Las comisiones reducen la rentabilidad que conservas. Compáralas junto con el índice seguido y la calidad de la réplica."
-        }
+        "fr": {"title": "Les frais comptent", "explanation": "Les frais réduisent le rendement qui reste dans votre poche. Comparez-les avec l’indice suivi et la qualité de réplication."},
+        "en": {"title": "Fees matter", "explanation": "Fees reduce the return you keep. Compare them alongside the index tracked and the quality of tracking."},
+        "de": {"title": "Kosten sind wichtig", "explanation": "Gebühren verringern deine Rendite. Vergleiche sie zusammen mit dem abgebildeten Index und der Qualität der Nachbildung."},
+        "es": {"title": "Las comisiones importan", "explanation": "Las comisiones reducen la rentabilidad que conservas. Compáralas junto con el índice seguido y la calidad de la réplica."}
       }
     },
     {
@@ -60,22 +31,10 @@
       "category": "ETF",
       "status": "active",
       "translations": {
-        "fr": {
-          "title": "La réplication peut être physique ou synthétique",
-          "explanation": "La réplication physique détient les titres directement ou par échantillonnage. La réplication synthétique utilise des instruments financiers, notamment des swaps."
-        },
-        "en": {
-          "title": "Replication can be physical or synthetic",
-          "explanation": "Physical replication holds the securities directly or samples them. Synthetic replication uses financial instruments, notably swaps."
-        },
-        "de": {
-          "title": "Die Nachbildung kann physisch oder synthetisch sein",
-          "explanation": "Bei der physischen Nachbildung hält der ETF die Wertpapiere direkt oder in einer Auswahl. Die synthetische Nachbildung nutzt Finanzinstrumente, insbesondere Swaps."
-        },
-        "es": {
-          "title": "La réplica puede ser física o sintética",
-          "explanation": "La réplica física mantiene los valores directamente o mediante una selección. La réplica sintética utiliza instrumentos financieros, especialmente swaps."
-        }
+        "fr": {"title": "La réplication peut être physique ou synthétique", "explanation": "La réplication physique détient les titres directement ou par échantillonnage. La réplication synthétique utilise des instruments financiers, notamment des swaps."},
+        "en": {"title": "Replication can be physical or synthetic", "explanation": "Physical replication holds the securities directly or samples them. Synthetic replication uses financial instruments, notably swaps."},
+        "de": {"title": "Die Nachbildung kann physisch oder synthetisch sein", "explanation": "Bei der physischen Nachbildung hält der ETF die Wertpapiere direkt oder in einer Auswahl. Die synthetische Nachbildung nutzt Finanzinstrumente, insbesondere Swaps."},
+        "es": {"title": "La réplica puede ser física o sintética", "explanation": "La réplica física mantiene los valores directamente o mediante una selección. La réplica sintética utiliza instrumentos financieros, especialmente swaps."}
       }
     },
     {
@@ -83,22 +42,10 @@
       "category": "Marchés",
       "status": "active",
       "translations": {
-        "fr": {
-          "title": "La volatilité n’est pas une perte définitive",
-          "explanation": "Le prix peut fluctuer à court terme. Une baisse reste un risque réel ; vendre à ce niveau transforme la moins-value en perte réalisée."
-        },
-        "en": {
-          "title": "Volatility is not necessarily a permanent loss",
-          "explanation": "Prices can fluctuate in the short term. A decline is still a real risk; selling at that point turns an unrealized loss into a realized one."
-        },
-        "de": {
-          "title": "Volatilität bedeutet nicht automatisch einen dauerhaften Verlust",
-          "explanation": "Kurse können kurzfristig schwanken. Ein Rückgang bleibt ein echtes Risiko; wer dann verkauft, realisiert den bis dahin nur buchmäßigen Verlust."
-        },
-        "es": {
-          "title": "La volatilidad no implica una pérdida definitiva",
-          "explanation": "Los precios pueden fluctuar a corto plazo. Una caída sigue siendo un riesgo real; vender en ese momento convierte la pérdida no realizada en una pérdida realizada."
-        }
+        "fr": {"title": "La volatilité n’est pas une perte définitive", "explanation": "Le prix peut fluctuer à court terme. Une baisse reste un risque réel ; vendre à ce niveau transforme la moins-value en perte réalisée."},
+        "en": {"title": "Volatility is not necessarily a permanent loss", "explanation": "Prices can fluctuate in the short term. A decline is still a real risk; selling at that point turns an unrealized loss into a realized one."},
+        "de": {"title": "Volatilität bedeutet nicht automatisch einen dauerhaften Verlust", "explanation": "Kurse können kurzfristig schwanken. Ein Rückgang bleibt ein echtes Risiko; wer dann verkauft, realisiert den bis dahin nur buchmäßigen Verlust."},
+        "es": {"title": "La volatilidad no implica una pérdida definitiva", "explanation": "Los precios pueden fluctuar a corto plazo. Una caída sigue siendo un riesgo real; vender en ese momento convierte la pérdida no realizada en una pérdida realizada."}
       }
     },
     {
@@ -106,22 +53,10 @@
       "category": "Marchés",
       "status": "active",
       "translations": {
-        "fr": {
-          "title": "Diversifier répartit les risques",
-          "explanation": "Répartir les investissements entre de nombreux titres limite la dépendance à une seule entreprise, sans supprimer le risque de marché."
-        },
-        "en": {
-          "title": "Diversification spreads risk",
-          "explanation": "Spreading investments across many securities reduces reliance on a single company, but it does not eliminate market risk."
-        },
-        "de": {
-          "title": "Diversifikation verteilt Risiken",
-          "explanation": "Wer in viele Wertpapiere investiert, verringert die Abhängigkeit von einem einzelnen Unternehmen. Das Marktrisiko bleibt jedoch bestehen."
-        },
-        "es": {
-          "title": "Diversificar distribuye el riesgo",
-          "explanation": "Repartir las inversiones entre muchos valores reduce la dependencia de una sola empresa, pero no elimina el riesgo de mercado."
-        }
+        "fr": {"title": "Diversifier répartit les risques", "explanation": "Répartir les investissements entre de nombreux titres limite la dépendance à une seule entreprise, sans supprimer le risque de marché."},
+        "en": {"title": "Diversification spreads risk", "explanation": "Spreading investments across many securities reduces reliance on a single company, but it does not eliminate market risk."},
+        "de": {"title": "Diversifikation verteilt Risiken", "explanation": "Wer in viele Wertpapiere investiert, verringert die Abhängigkeit von einem einzelnen Unternehmen. Das Marktrisiko bleibt jedoch bestehen."},
+        "es": {"title": "Diversificar distribuye el riesgo", "explanation": "Repartir las inversiones entre muchos valores reduce la dependencia de una sola empresa, pero no elimina el riesgo de mercado."}
       }
     },
     {
@@ -129,22 +64,10 @@
       "category": "Portefeuille",
       "status": "active",
       "translations": {
-        "fr": {
-          "title": "Investir régulièrement discipline l’effort",
-          "explanation": "Des versements réguliers aident à suivre une stratégie sans chercher le meilleur moment. Ils ne garantissent ni gain ni protection contre les pertes."
-        },
-        "en": {
-          "title": "Regular investing builds discipline",
-          "explanation": "Regular contributions help you stick to a strategy without trying to time the market. They guarantee neither gains nor protection from losses."
-        },
-        "de": {
-          "title": "Regelmäßiges Investieren schafft Disziplin",
-          "explanation": "Regelmäßige Einzahlungen helfen dir, einer Strategie zu folgen, statt den perfekten Einstiegszeitpunkt zu suchen. Gewinne oder Schutz vor Verlusten sind dadurch nicht garantiert."
-        },
-        "es": {
-          "title": "Invertir con regularidad fomenta la disciplina",
-          "explanation": "Las aportaciones periódicas ayudan a seguir una estrategia sin intentar adivinar el mejor momento. No garantizan ganancias ni protección frente a pérdidas."
-        }
+        "fr": {"title": "Investir régulièrement discipline l’effort", "explanation": "Des versements réguliers aident à suivre une stratégie sans chercher le meilleur moment. Ils ne garantissent ni gain ni protection contre les pertes."},
+        "en": {"title": "Regular investing builds discipline", "explanation": "Regular contributions help you stick to a strategy without trying to time the market. They guarantee neither gains nor protection from losses."},
+        "de": {"title": "Regelmäßiges Investieren schafft Disziplin", "explanation": "Regelmäßige Einzahlungen helfen dir, einer Strategie zu folgen, statt den perfekten Einstiegszeitpunkt zu suchen. Gewinne oder Schutz vor Verlusten sind dadurch nicht garantiert."},
+        "es": {"title": "Invertir con regularidad fomenta la disciplina", "explanation": "Las aportaciones periódicas ayudan a seguir una estrategia sin intentar adivinar el mejor momento. No garantizan ganancias ni protección frente a pérdidas."}
       }
     },
     {
@@ -152,22 +75,10 @@
       "category": "Portefeuille",
       "status": "active",
       "translations": {
-        "fr": {
-          "title": "L’horizon change le risque acceptable",
-          "explanation": "Un objectif proche laisse moins de temps pour absorber une baisse. L’allocation doit tenir compte de la date et de la flexibilité de l’objectif."
-        },
-        "en": {
-          "title": "Your time horizon changes the risk you can take",
-          "explanation": "A near-term goal leaves less time to recover from a decline. Your allocation should reflect the target date and how flexible the goal is."
-        },
-        "de": {
-          "title": "Der Anlagehorizont beeinflusst das tragbare Risiko",
-          "explanation": "Bei einem nahen Ziel bleibt weniger Zeit, einen Rückgang auszugleichen. Die Aufteilung sollte den Zieltermin und die Flexibilität des Ziels berücksichtigen."
-        },
-        "es": {
-          "title": "El horizonte cambia el riesgo asumible",
-          "explanation": "Un objetivo cercano deja menos tiempo para recuperarse de una caída. La distribución debe tener en cuenta la fecha y la flexibilidad del objetivo."
-        }
+        "fr": {"title": "L’horizon change le risque acceptable", "explanation": "Un objectif proche laisse moins de temps pour absorber une baisse. L’allocation doit tenir compte de la date et de la flexibilité de l’objectif."},
+        "en": {"title": "Your time horizon changes the risk you can take", "explanation": "A near-term goal leaves less time to recover from a decline. Your allocation should reflect the target date and how flexible the goal is."},
+        "de": {"title": "Der Anlagehorizont beeinflusst das tragbare Risiko", "explanation": "Bei einem nahen Ziel bleibt weniger Zeit, einen Rückgang auszugleichen. Die Aufteilung sollte den Zieltermin und die Flexibilität des Ziels berücksichtigen."},
+        "es": {"title": "El horizonte cambia el riesgo asumible", "explanation": "Un objetivo cercano deja menos tiempo para recuperarse de una caída. La distribución debe tener en cuenta la fecha y la flexibilidad del objetivo."}
       }
     },
     {
@@ -175,22 +86,54 @@
       "category": "Psychologie",
       "status": "active",
       "translations": {
-        "fr": {
-          "title": "Une baisse peut déclencher une décision impulsive",
-          "explanation": "La peur pousse parfois à vendre au pire moment. Définir son plan à l’avance aide à prendre du recul."
-        },
-        "en": {
-          "title": "A market drop can trigger an impulsive decision",
-          "explanation": "Fear can sometimes lead investors to sell at the worst moment. Defining a plan in advance helps create some distance."
-        },
-        "de": {
-          "title": "Ein Kursrückgang kann impulsive Entscheidungen auslösen",
-          "explanation": "Angst kann dazu führen, dass Anleger zum ungünstigsten Zeitpunkt verkaufen. Ein vorher festgelegter Plan hilft, Abstand zu gewinnen."
-        },
-        "es": {
-          "title": "Una caída puede provocar una decisión impulsiva",
-          "explanation": "El miedo puede llevar a vender en el peor momento. Definir un plan de antemano ayuda a tomar distancia."
-        }
+        "fr": {"title": "Une baisse peut déclencher une décision impulsive", "explanation": "La peur pousse parfois à vendre au pire moment. Définir son plan à l’avance aide à prendre du recul."},
+        "en": {"title": "A market drop can trigger an impulsive decision", "explanation": "Fear can sometimes lead investors to sell at the worst moment. Defining a plan in advance helps create some distance."},
+        "de": {"title": "Ein Kursrückgang kann impulsive Entscheidungen auslösen", "explanation": "Angst kann dazu führen, dass Anleger zum ungünstigsten Zeitpunkt verkaufen. Ein vorher festgelegter Plan hilft, Abstand zu gewinnen."},
+        "es": {"title": "Una caída puede provocar una decisión impulsiva", "explanation": "El miedo puede llevar a vender en el peor momento. Definir un plan de antemano ayuda a tomar distancia."}
+      }
+    },
+    {
+      "id": "market-index-concentration",
+      "category": "Marchés",
+      "status": "active",
+      "translations": {
+        "fr": {"title": "Un indice mondial peut rester concentré", "explanation": "Même un indice contenant des centaines d’entreprises peut dépendre fortement de quelques grandes sociétés ou d’un seul pays. Regardez la répartition géographique et le poids des principales positions."},
+        "en": {"title": "A global index can still be concentrated", "explanation": "Even an index with hundreds of companies can depend heavily on a few large firms or one country. Check its geographic breakdown and the weight of its largest holdings."},
+        "de": {"title": "Auch ein Weltindex kann konzentriert sein", "explanation": "Selbst ein Index mit Hunderten Unternehmen kann stark von wenigen großen Firmen oder einem Land abhängen. Prüfe die regionale Verteilung und das Gewicht der größten Positionen."},
+        "es": {"title": "Un índice mundial también puede estar concentrado", "explanation": "Incluso un índice con cientos de empresas puede depender mucho de unas pocas grandes compañías o de un solo país. Comprueba la distribución geográfica y el peso de las principales posiciones."}
+      }
+    },
+    {
+      "id": "etf-currency-exposure",
+      "category": "ETF",
+      "status": "active",
+      "translations": {
+        "fr": {"title": "La devise de cotation ne suffit pas", "explanation": "Un ETF coté en euros peut détenir des actifs exposés au dollar ou à d’autres devises. La devise affichée à la Bourse ne supprime pas le risque de change ; vérifiez si le fonds est couvert contre ce risque."},
+        "en": {"title": "The trading currency is not the whole story", "explanation": "An ETF traded in euros can hold assets exposed to the US dollar or other currencies. Its exchange-trading currency does not remove currency risk; check whether the fund hedges it."},
+        "de": {"title": "Die Handelswährung erzählt nicht die ganze Geschichte", "explanation": "Ein in Euro gehandelter ETF kann Vermögenswerte halten, die dem US-Dollar oder anderen Währungen ausgesetzt sind. Die Handelswährung beseitigt das Währungsrisiko nicht; prüfe, ob der Fonds es absichert."},
+        "es": {"title": "La divisa de cotización no lo es todo", "explanation": "Un ETF que cotiza en euros puede tener activos expuestos al dólar u otras divisas. La moneda de cotización no elimina el riesgo cambiario; comprueba si el fondo lo cubre."}
+      }
+    },
+    {
+      "id": "etf-accumulating-distributing",
+      "category": "ETF",
+      "status": "active",
+      "translations": {
+        "fr": {"title": "Capitalisation ou distribution : deux façons de gérer les revenus", "explanation": "Un ETF capitalisant réinvestit généralement les dividendes dans le fonds. Un ETF distribuant verse les revenus aux investisseurs. Le choix dépend notamment de votre objectif et de la fiscalité applicable."},
+        "en": {"title": "Accumulating or distributing: two ways to handle income", "explanation": "An accumulating ETF generally reinvests dividends within the fund. A distributing ETF pays income to investors. The choice depends in part on your goal and applicable tax rules."},
+        "de": {"title": "Thesaurierend oder ausschüttend: zwei Arten, Erträge zu behandeln", "explanation": "Ein thesaurierender ETF reinvestiert Dividenden in der Regel im Fonds. Ein ausschüttender ETF zahlt Erträge an Anleger aus. Die Wahl hängt unter anderem vom Anlageziel und den geltenden Steuervorschriften ab."},
+        "es": {"title": "De acumulación o de distribución: dos formas de gestionar los ingresos", "explanation": "Un ETF de acumulación suele reinvertir los dividendos dentro del fondo. Uno de distribución paga los ingresos a los inversores. La elección depende, entre otros factores, del objetivo y de la fiscalidad aplicable."}
+      }
+    },
+    {
+      "id": "portfolio-rebalancing",
+      "category": "Portefeuille",
+      "status": "active",
+      "translations": {
+        "fr": {"title": "Rééquilibrer aide à retrouver son allocation cible", "explanation": "Après des mouvements de marché, certaines lignes pèsent davantage que prévu. Rééquilibrer consiste à revenir vers les proportions choisies, par exemple en orientant les nouveaux versements vers les lignes en retard. Cela ne garantit pas une meilleure performance."},
+        "en": {"title": "Rebalancing helps restore your target allocation", "explanation": "After market moves, some holdings may weigh more than planned. Rebalancing means moving back toward your chosen proportions, for example by directing new contributions to underweight holdings. It does not guarantee better performance."},
+        "de": {"title": "Rebalancing hilft, die Zielaufteilung wiederherzustellen", "explanation": "Nach Marktbewegungen können einzelne Positionen stärker gewichtet sein als geplant. Beim Rebalancing kehrst du zu deinen Zielanteilen zurück, etwa indem du neue Einzahlungen in untergewichtete Positionen lenkst. Eine bessere Rendite ist dadurch nicht garantiert."},
+        "es": {"title": "El rebalanceo ayuda a recuperar la distribución objetivo", "explanation": "Tras los movimientos del mercado, algunas posiciones pueden pesar más de lo previsto. Reequilibrar consiste en volver hacia los porcentajes elegidos, por ejemplo destinando nuevas aportaciones a las posiciones infraponderadas. No garantiza una rentabilidad superior."}
       }
     }
   ]
