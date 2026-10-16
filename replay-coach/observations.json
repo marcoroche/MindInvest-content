@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "defaultLanguage": "fr",
+  "supportedLanguages": [
+    "fr",
+    "en",
+    "de",
+    "es"
+  ],
+  "observations": [
+    {
+      "id": "sold-during-decline",
+      "status": "active",
+      "version": 1,
+      "trigger": {
+        "type": "USER_SOLD_DURING_DRAWDOWN"
+      },
+      "relatedNotions": [
+        "market-volatility",
+        "psychology-panic"
+      ],
+      "translations": {
+        "fr": {
+          "title": "Tu as vendu pendant une baisse",
+          "explanation": "La vente a figé la valeur de ton portefeuille à ce moment-là. Compare ce résultat à la suite du marché dans ce rejeu : c'est un constat sur ce scénario, pas une preuve qu'il faut toujours conserver ses placements.",
+          "advice": "Avant une prochaine baisse, écris les conditions qui justifieraient réellement une vente et celles qui relèvent seulement de l'inquiétude.",
+          "reflectionQuestion": "Quelle règle aurais-tu voulu avoir définie avant la baisse ?"
+        },
+        "en": {
+          "title": "You sold during a decline",
+          "explanation": "Selling fixed your portfolio value at that point. Compare it with what the market did next in this replay: this is an observation about this scenario, not proof that you should always hold investments.",
+          "advice": "Before the next downturn, write down what would genuinely justify selling and what might simply be worry.",
+          "reflectionQuestion": "What rule would you have wanted to define before the decline?"
+        },
+        "de": {
+          "title": "Du hast während eines Rückgangs verkauft",
+          "explanation": "Durch den Verkauf wurde der Portfoliowert zu diesem Zeitpunkt festgeschrieben. Vergleiche ihn mit dem weiteren Marktverlauf in diesem Replay: Das ist eine Beobachtung zu diesem Szenario, kein Beweis dafür, dass man Anlagen immer halten sollte.",
+          "advice": "Lege vor dem nächsten Rückgang fest, welche Bedingungen einen Verkauf wirklich rechtfertigen und was eher Sorge ist.",
+          "reflectionQuestion": "Welche Regel hättest du gern vor dem Rückgang festgelegt?"
+        },
+        "es": {
+          "title": "Vendiste durante una caída",
+          "explanation": "La venta fijó el valor de tu cartera en ese momento. Compáralo con lo que hizo después el mercado en esta simulación: es una observación sobre este escenario, no una prueba de que siempre haya que mantener las inversiones.",
+          "advice": "Antes de la próxima caída, escribe qué condiciones justificarían realmente vender y cuáles podrían ser solo preocupación.",
+          "reflectionQuestion": "¿Qué regla te habría gustado definir antes de la caída?"
+        }
+      }
+    },
+    {
+      "id": "held-through-decline",
+      "status": "active",
+      "version": 1,
+      "trigger": {
+        "type": "USER_HELD_DURING_DRAWDOWN"
+      },
+      "relatedNotions": [
+        "market-volatility",
+        "portfolio-horizon"
+      ],
+      "translations": {
+        "fr": {
+          "title": "Tu as maintenu ta position pendant la baisse",
+          "explanation": "Tu es resté investi dans ce scénario. Regarde la performance obtenue, mais aussi l'ampleur de la baisse et la durée pendant laquelle tu as dû la supporter. Rester investi n'est pas toujours adapté à chaque objectif.",
+          "advice": "Vérifie que ton horizon et ton épargne de précaution te permettraient de supporter une baisse similaire en situation réelle.",
+          "reflectionQuestion": "De quelle somme pourrais-tu avoir besoin avant ton horizon d'investissement ?"
+        },
+        "en": {
+          "title": "You stayed invested during the decline",
+          "explanation": "You remained invested in this scenario. Review the outcome, but also the size of the decline and how long you had to tolerate it. Staying invested is not suitable for every goal.",
+          "advice": "Check whether your time horizon and emergency savings would let you withstand a similar decline in real life.",
+          "reflectionQuestion": "How much money might you need before your investment horizon ends?"
+        },
+        "de": {
+          "title": "Du bist während des Rückgangs investiert geblieben",
+          "explanation": "In diesem Szenario bist du investiert geblieben. Betrachte das Ergebnis, aber auch die Höhe des Rückgangs und wie lange du ihn aushalten musstest. Investiert zu bleiben passt nicht zu jedem Ziel.",
+          "advice": "Prüfe, ob dein Anlagehorizont und deine Rücklagen es dir ermöglichen würden, einen ähnlichen Rückgang im echten Leben auszuhalten.",
+          "reflectionQuestion": "Wie viel Geld könntest du vor dem Ende deines Anlagehorizonts benötigen?"
+        },
+        "es": {
+          "title": "Mantuviste la inversión durante la caída",
+          "explanation": "En este escenario seguiste invertido. Revisa el resultado, pero también la magnitud de la caída y cuánto tiempo tuviste que soportarla. Mantenerse invertido no es adecuado para todos los objetivos.",
+          "advice": "Comprueba si tu horizonte temporal y tu fondo de emergencia te permitirían soportar una caída similar en la vida real.",
+          "reflectionQuestion": "¿Qué cantidad podrías necesitar antes de que termine tu horizonte de inversión?"
+        }
+      }
+    },
+    {
+      "id": "market-recovered-after-exit",
+      "status": "active",
+      "version": 1,
+      "trigger": {
+        "type": "MARKET_RECOVERED_AFTER_USER_EXIT"
+      },
+      "relatedNotions": [
+        "market-volatility",
+        "psychology-panic"
+      ],
+      "translations": {
+        "fr": {
+          "title": "Le marché a rebondi après ta sortie",
+          "explanation": "Dans ce rejeu, le marché a progressé après ta vente. On ne pouvait pas connaître ce rebond à l'avance ; d'autres périodes se terminent différemment.",
+          "advice": "Évalue une décision selon les informations disponibles au moment où tu l'as prise, pas seulement selon ce qui s'est passé ensuite.",
+          "reflectionQuestion": "Quelles informations étaient réellement disponibles au moment de ta décision ?"
+        },
+        "en": {
+          "title": "The market recovered after you exited",
+          "explanation": "In this replay, the market rose after you sold. That recovery could not have been known in advance; other periods end differently.",
+          "advice": "Assess a decision using the information available when you made it, not only what happened afterwards.",
+          "reflectionQuestion": "What information was actually available when you made your decision?"
+        },
+        "de": {
+          "title": "Der Markt erholte sich nach deinem Ausstieg",
+          "explanation": "In diesem Replay stieg der Markt nach deinem Verkauf. Diese Erholung war nicht vorhersehbar; andere Zeiträume enden anders.",
+          "advice": "Bewerte eine Entscheidung anhand der Informationen, die dir damals vorlagen, nicht nur anhand der späteren Entwicklung.",
+          "reflectionQuestion": "Welche Informationen standen dir zum Zeitpunkt deiner Entscheidung tatsächlich zur Verfügung?"
+        },
+        "es": {
+          "title": "El mercado se recuperó después de tu salida",
+          "explanation": "En esta simulación, el mercado subió después de que vendieras. No era posible conocer esa recuperación de antemano; otros periodos terminan de otra manera.",
+          "advice": "Evalúa una decisión según la información disponible cuando la tomaste, no solo según lo que ocurrió después.",
+          "reflectionQuestion": "¿Qué información estaba realmente disponible cuando tomaste la decisión?"
+        }
+      }
+    },
+    {
+      "id": "stayed-out-during-recovery",
+      "status": "active",
+      "version": 1,
+      "trigger": {
+        "type": "USER_REMAINED_IN_CASH_DURING_RECOVERY"
+      },
+      "relatedNotions": [
+        "market-volatility",
+        "portfolio-dca"
+      ],
+      "translations": {
+        "fr": {
+          "title": "Tu es resté en cash pendant une reprise",
+          "explanation": "Le portefeuille est resté à l'écart pendant une partie de la reprise observée. Cela illustre le risque de manquer certains rebonds, sans garantir que réinvestir plus tôt aurait toujours été préférable.",
+          "advice": "Réfléchis à l'avance à des critères de réinvestissement cohérents avec ton plan plutôt qu'à une date parfaite.",
+          "reflectionQuestion": "Quel critère t'aiderait à décider de réinvestir sans devoir prédire le prochain mouvement ?"
+        },
+        "en": {
+          "title": "You stayed in cash during a recovery",
+          "explanation": "The portfolio missed part of the recovery observed in this scenario. This illustrates the risk of missing rebounds, without proving that reinvesting earlier would always have been better.",
+          "advice": "Think in advance about reinvestment criteria consistent with your plan rather than trying to find a perfect date.",
+          "reflectionQuestion": "What criterion could help you reinvest without predicting the next market move?"
+        },
+        "de": {
+          "title": "Du bist während der Erholung in Cash geblieben",
+          "explanation": "Das Portfolio nahm an einem Teil der beobachteten Erholung nicht teil. Das zeigt das Risiko, Erholungen zu verpassen, beweist aber nicht, dass ein früherer Wiedereinstieg immer besser gewesen wäre.",
+          "advice": "Überlege dir im Voraus Kriterien für einen Wiedereinstieg, die zu deinem Plan passen, statt den perfekten Zeitpunkt zu suchen.",
+          "reflectionQuestion": "Welches Kriterium würde dir helfen, wieder einzusteigen, ohne die nächste Marktbewegung vorherzusagen?"
+        },
+        "es": {
+          "title": "Te mantuviste en efectivo durante la recuperación",
+          "explanation": "La cartera quedó fuera de parte de la recuperación observada. Esto ilustra el riesgo de perderse algunos rebotes, pero no demuestra que reinvertir antes siempre hubiera sido mejor.",
+          "advice": "Define de antemano criterios para reinvertir que encajen con tu plan, en lugar de buscar una fecha perfecta.",
+          "reflectionQuestion": "¿Qué criterio te ayudaría a reinvertir sin intentar predecir el siguiente movimiento?"
+        }
+      }
+    }
+  ]
+}
