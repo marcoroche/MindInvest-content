@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "defaultLanguage": "fr",
+  "supportedLanguages": [
+    "fr",
+    "en",
+    "de",
+    "es"
+  ],
+  "examples": [
+    {
+      "id": "exit-and-rebound",
+      "status": "active",
+      "version": 1,
+      "notionId": "psychology-panic",
+      "level": "beginner",
+      "translations": {
+        "fr": {
+          "title": "Sortir juste avant un rebond",
+          "body": "Un investisseur vend après plusieurs séances de baisse. Le marché rebondit ensuite. Le rebond était impossible à garantir : l'exemple sert à examiner le risque de timing, pas à juger la personne.",
+          "takeaway": "Une décision doit être évaluée selon le plan et les informations disponibles à ce moment-là."
+        },
+        "en": {
+          "title": "Exiting just before a rebound",
+          "body": "An investor sells after several falling sessions. The market then rebounds. The rebound could not be guaranteed; this example explores timing risk rather than judging the person.",
+          "takeaway": "Assess a decision against the plan and information available at the time."
+        },
+        "de": {
+          "title": "Ausstieg kurz vor einer Erholung",
+          "body": "Ein Anleger verkauft nach mehreren Verlusttagen. Danach erholt sich der Markt. Diese Erholung war nicht garantiert; das Beispiel beleuchtet das Timing-Risiko, ohne die Person zu bewerten.",
+          "takeaway": "Bewerte eine Entscheidung anhand des Plans und der damals verfügbaren Informationen."
+        },
+        "es": {
+          "title": "Salir justo antes de un rebote",
+          "body": "Un inversor vende tras varias sesiones bajistas. Después, el mercado rebota. El rebote no estaba garantizado; el ejemplo explora el riesgo de intentar acertar el momento, no juzga a la persona.",
+          "takeaway": "Evalúa la decisión según el plan y la información disponible en ese momento."
+        }
+      }
+    },
+    {
+      "id": "cash-and-missed-recovery",
+      "status": "active",
+      "version": 1,
+      "notionId": "portfolio-dca",
+      "level": "beginner",
+      "translations": {
+        "fr": {
+          "title": "Attendre le moment parfait",
+          "body": "Après avoir vendu, un investisseur attend un signal certain pour revenir. Pendant ce temps, le marché remonte puis fluctue. Aucun indicateur ne garantit le point d'entrée idéal.",
+          "takeaway": "Un plan explicite peut réduire la dépendance à une prédiction parfaite."
+        },
+        "en": {
+          "title": "Waiting for the perfect moment",
+          "body": "After selling, an investor waits for a certain signal to return. Meanwhile, the market rises and fluctuates. No indicator guarantees the ideal entry point.",
+          "takeaway": "A clear plan can reduce dependence on a perfect prediction."
+        },
+        "de": {
+          "title": "Auf den perfekten Zeitpunkt warten",
+          "body": "Nach dem Verkauf wartet ein Anleger auf ein sicheres Signal für den Wiedereinstieg. Inzwischen steigt und schwankt der Markt. Kein Indikator garantiert den idealen Einstiegszeitpunkt.",
+          "takeaway": "Ein klarer Plan kann die Abhängigkeit von perfekten Vorhersagen verringern."
+        },
+        "es": {
+          "title": "Esperar el momento perfecto",
+          "body": "Tras vender, un inversor espera una señal segura para volver. Mientras tanto, el mercado sube y fluctúa. Ningún indicador garantiza el punto de entrada ideal.",
+          "takeaway": "Un plan claro puede reducir la dependencia de una predicción perfecta."
+        }
+      }
+    },
+    {
+      "id": "staying-invested-with-a-near-goal",
+      "status": "active",
+      "version": 1,
+      "notionId": "portfolio-horizon",
+      "level": "intermediate",
+      "translations": {
+        "fr": {
+          "title": "Rester investi malgré un objectif proche",
+          "body": "Un investisseur garde une allocation risquée alors qu'il devra utiliser son argent bientôt. Même si le marché finit par remonter, le calendrier de l'objectif peut rendre une baisse difficile à absorber.",
+          "takeaway": "La bonne question n'est pas seulement « le marché va-t-il remonter ? », mais « quand aurai-je besoin de cet argent ? »"
+        },
+        "en": {
+          "title": "Staying invested with a near-term goal",
+          "body": "An investor keeps a risky allocation even though the money will be needed soon. Even if the market eventually recovers, the goal's timing can make a decline hard to absorb.",
+          "takeaway": "The question is not only whether the market will recover, but when the money will be needed."
+        },
+        "de": {
+          "title": "Investiert bleiben trotz eines nahen Ziels",
+          "body": "Ein Anleger behält eine riskante Aufteilung bei, obwohl er das Geld bald benötigt. Selbst wenn sich der Markt später erholt, kann der Zeitplan des Ziels einen Rückgang schwer verkraftbar machen.",
+          "takeaway": "Die Frage ist nicht nur, ob sich der Markt erholt, sondern wann das Geld benötigt wird."
+        },
+        "es": {
+          "title": "Seguir invertido con un objetivo cercano",
+          "body": "Un inversor mantiene una asignación arriesgada aunque necesitará el dinero pronto. Aunque el mercado se recupere más adelante, el plazo del objetivo puede hacer difícil soportar una caída.",
+          "takeaway": "La pregunta no es solo si el mercado se recuperará, sino cuándo se necesitará el dinero."
+        }
+      }
+    },
+    {
+      "id": "rising-market-and-fomo",
+      "status": "active",
+      "version": 1,
+      "notionId": "psychology-panic",
+      "level": "beginner",
+      "translations": {
+        "fr": {
+          "title": "Acheter par peur de rater la hausse",
+          "body": "Après une forte progression, un investisseur achète surtout parce que tout le monde parle de l'actif. Une hausse passée ne permet pas de prévoir la suivante.",
+          "takeaway": "Distinguer un objectif d'investissement d'une réaction à l'enthousiasme ambiant."
+        },
+        "en": {
+          "title": "Buying out of fear of missing out",
+          "body": "After a strong rise, an investor buys mainly because everyone is talking about the asset. Past gains do not predict the next move.",
+          "takeaway": "Separate an investment goal from a reaction to market excitement."
+        },
+        "de": {
+          "title": "Aus Angst, den Anstieg zu verpassen, kaufen",
+          "body": "Nach einem starken Anstieg kauft ein Anleger vor allem, weil alle über den Vermögenswert sprechen. Vergangene Gewinne sagen die nächste Bewegung nicht voraus.",
+          "takeaway": "Unterscheide ein Anlageziel von einer Reaktion auf die allgemeine Begeisterung."
+        },
+        "es": {
+          "title": "Comprar por miedo a perderse la subida",
+          "body": "Tras una fuerte subida, un inversor compra principalmente porque todo el mundo habla del activo. Las ganancias pasadas no predicen el siguiente movimiento.",
+          "takeaway": "Distingue un objetivo de inversión de una reacción al entusiasmo del mercado."
+        }
+      }
+    }
+  ]
+}
