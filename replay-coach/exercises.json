@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "defaultLanguage": "fr",
+  "supportedLanguages": [
+    "fr",
+    "en",
+    "de",
+    "es"
+  ],
+  "exercises": [
+    {
+      "id": "write-your-selling-rule",
+      "status": "active",
+      "version": 1,
+      "notionId": "psychology-panic",
+      "level": "beginner",
+      "type": "reflection",
+      "translations": {
+        "fr": {
+          "prompt": "Avant une baisse, quelle condition précise pourrait justifier une vente dans ton plan ?",
+          "options": [],
+          "explanation": "L'objectif est de distinguer une règle préparée d'une réaction à la peur. Il n'existe pas une règle universelle adaptée à tous."
+        },
+        "en": {
+          "prompt": "Before a decline, what specific condition in your plan could justify selling?",
+          "options": [],
+          "explanation": "The goal is to distinguish a prepared rule from a fear-driven reaction. There is no universal rule that fits everyone."
+        },
+        "de": {
+          "prompt": "Welche konkrete Bedingung in deinem Plan könnte vor einem Rückgang einen Verkauf rechtfertigen?",
+          "options": [],
+          "explanation": "Ziel ist es, eine vorbereitete Regel von einer angstgetriebenen Reaktion zu unterscheiden. Eine universelle Regel für alle gibt es nicht."
+        },
+        "es": {
+          "prompt": "Antes de una caída, ¿qué condición concreta de tu plan podría justificar una venta?",
+          "options": [],
+          "explanation": "El objetivo es distinguir una regla preparada de una reacción por miedo. No existe una regla universal adecuada para todos."
+        }
+      }
+    },
+    {
+      "id": "check-your-time-horizon",
+      "status": "active",
+      "version": 1,
+      "notionId": "portfolio-horizon",
+      "level": "beginner",
+      "type": "reflection",
+      "translations": {
+        "fr": {
+          "prompt": "Quand auras-tu réellement besoin de l'argent investi, et quelle baisse pourrais-tu supporter d'ici là ?",
+          "options": [],
+          "explanation": "L'horizon et la capacité à supporter une perte doivent être considérés ensemble."
+        },
+        "en": {
+          "prompt": "When will you actually need the invested money, and what decline could you withstand until then?",
+          "options": [],
+          "explanation": "Your time horizon and ability to withstand a loss should be considered together."
+        },
+        "de": {
+          "prompt": "Wann benötigst du das investierte Geld tatsächlich, und welchen Rückgang könntest du bis dahin verkraften?",
+          "options": [],
+          "explanation": "Anlagehorizont und Verlusttragfähigkeit sollten gemeinsam betrachtet werden."
+        },
+        "es": {
+          "prompt": "¿Cuándo necesitarás realmente el dinero invertido y qué caída podrías soportar hasta entonces?",
+          "options": [],
+          "explanation": "El horizonte temporal y la capacidad para soportar pérdidas deben considerarse conjuntamente."
+        }
+      }
+    },
+    {
+      "id": "identify-hindsight-bias",
+      "status": "active",
+      "version": 1,
+      "notionId": "market-volatility",
+      "level": "intermediate",
+      "type": "quiz",
+      "translations": {
+        "fr": {
+          "prompt": "Après avoir vu le marché rebondir, quelle conclusion est la plus juste ?",
+          "options": [
+            "Le rebond était évident",
+            "Le résultat était incertain au moment de la décision",
+            "Il faut toujours garder ses placements"
+          ],
+          "correctIndex": 1,
+          "explanation": "Connaître la suite crée un biais rétrospectif : le résultat peut sembler évident après coup alors qu'il ne l'était pas."
+        },
+        "en": {
+          "prompt": "After seeing the market rebound, which conclusion is most accurate?",
+          "options": [
+            "The rebound was obvious",
+            "The outcome was uncertain when the decision was made",
+            "You should always hold investments"
+          ],
+          "correctIndex": 1,
+          "explanation": "Knowing what happened later creates hindsight bias: an outcome may seem obvious afterwards even though it was not at the time."
+        },
+        "de": {
+          "prompt": "Welche Schlussfolgerung ist nach einer Markterholung am zutreffendsten?",
+          "options": [
+            "Die Erholung war offensichtlich",
+            "Das Ergebnis war zum Entscheidungszeitpunkt ungewiss",
+            "Man sollte Anlagen immer halten"
+          ],
+          "correctIndex": 1,
+          "explanation": "Rückschaufehler lässt ein Ergebnis im Nachhinein offensichtlich erscheinen, obwohl es zum damaligen Zeitpunkt ungewiss war."
+        },
+        "es": {
+          "prompt": "Después de ver el rebote del mercado, ¿qué conclusión es más acertada?",
+          "options": [
+            "El rebote era evidente",
+            "El resultado era incierto cuando se tomó la decisión",
+            "Siempre hay que mantener las inversiones"
+          ],
+          "correctIndex": 1,
+          "explanation": "El sesgo retrospectivo hace que un resultado parezca evidente después, aunque no lo fuera en el momento de decidir."
+        }
+      }
+    }
+  ]
+}
