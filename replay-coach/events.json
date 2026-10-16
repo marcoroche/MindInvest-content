@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "description": "Editorial catalog for historical and custom replay scenarios. Historical outcomes are contextual summaries; runtime market performance must be calculated from the replay data.",
+  "defaultLanguage": "fr",
+  "supportedLanguages": [
+    "fr",
+    "en",
+    "de",
+    "es"
+  ],
+  "events": [
+    {
+      "id": "covid",
+      "status": "active",
+      "version": 1,
+      "emoji": "🦠",
+      "startDate": "2020-02-20",
+      "challengeDayOffset": 32,
+      "xp": 30,
+      "translations": {
+        "fr": {
+          "name": "Krach Covid",
+          "dateLabel": "20 février 2020",
+          "teaser": "Les marchés ignorent encore le virus…",
+          "outcome": "La crise sanitaire a provoqué une chute rapide des marchés, suivie d'un rebond marqué. Observe le parcours réel dans le rejeu.",
+          "challengeText": "La baisse s'accélère et les médias parlent de récession mondiale. Que fais-tu ?",
+          "holdLabel": "🧊 Je garde ma stratégie",
+          "sellLabel": "😱 Je vends tout"
+        },
+        "en": {
+          "name": "Covid crash",
+          "dateLabel": "20 February 2020",
+          "teaser": "Markets have not fully priced in the virus yet…",
+          "outcome": "The health crisis triggered a rapid market decline followed by a strong rebound. Observe the actual path in the replay.",
+          "challengeText": "The decline accelerates and headlines warn of a global recession. What do you do?",
+          "holdLabel": "🧊 I stick to my plan",
+          "sellLabel": "😱 I sell everything"
+        },
+        "de": {
+          "name": "Corona-Crash",
+          "dateLabel": "20. Februar 2020",
+          "teaser": "Die Märkte haben das Virus noch nicht vollständig eingepreist …",
+          "outcome": "Die Gesundheitskrise löste einen schnellen Marktrückgang mit anschließender deutlicher Erholung aus. Beobachte den tatsächlichen Verlauf im Replay.",
+          "challengeText": "Der Rückgang beschleunigt sich und die Medien warnen vor einer weltweiten Rezession. Was tust du?",
+          "holdLabel": "🧊 Ich halte an meinem Plan fest",
+          "sellLabel": "😱 Ich verkaufe alles"
+        },
+        "es": {
+          "name": "Caída del Covid",
+          "dateLabel": "20 de febrero de 2020",
+          "teaser": "Los mercados aún no han descontado del todo el virus…",
+          "outcome": "La crisis sanitaria provocó una rápida caída de los mercados seguida de una recuperación marcada. Observa la evolución real en la simulación.",
+          "challengeText": "La caída se acelera y los medios hablan de una recesión mundial. ¿Qué haces?",
+          "holdLabel": "🧊 Mantengo mi plan",
+          "sellLabel": "😱 Lo vendo todo"
+        }
+      }
+    },
+    {
+      "id": "subprimes",
+      "status": "active",
+      "version": 1,
+      "emoji": "🏦",
+      "startDate": "2008-09-15",
+      "challengeDayOffset": 160,
+      "xp": 60,
+      "translations": {
+        "fr": {
+          "name": "Crise des subprimes",
+          "dateLabel": "15 septembre 2008",
+          "teaser": "La faillite de Lehman Brothers secoue le système financier.",
+          "outcome": "La crise financière a entraîné une longue baisse des marchés. Le rejeu permet d'en observer le parcours et sa durée.",
+          "challengeText": "La baisse se prolonge et les nouvelles économiques restent inquiétantes. Que fais-tu ?",
+          "holdLabel": "🧊 Je garde ma stratégie",
+          "sellLabel": "😱 Je vends tout"
+        },
+        "en": {
+          "name": "Global financial crisis",
+          "dateLabel": "15 September 2008",
+          "teaser": "Lehman Brothers' collapse shakes the financial system.",
+          "outcome": "The financial crisis brought a prolonged market decline. The replay lets you observe its path and duration.",
+          "challengeText": "The decline continues and economic news remains worrying. What do you do?",
+          "holdLabel": "🧊 I stick to my plan",
+          "sellLabel": "😱 I sell everything"
+        },
+        "de": {
+          "name": "Finanzkrise",
+          "dateLabel": "15. September 2008",
+          "teaser": "Der Zusammenbruch von Lehman Brothers erschüttert das Finanzsystem.",
+          "outcome": "Die Finanzkrise führte zu einem lang anhaltenden Marktrückgang. Im Replay kannst du Verlauf und Dauer beobachten.",
+          "challengeText": "Der Rückgang hält an und die Wirtschaftsnachrichten bleiben beunruhigend. Was tust du?",
+          "holdLabel": "🧊 Ich halte an meinem Plan fest",
+          "sellLabel": "😱 Ich verkaufe alles"
+        },
+        "es": {
+          "name": "Crisis financiera mundial",
+          "dateLabel": "15 de septiembre de 2008",
+          "teaser": "La quiebra de Lehman Brothers sacude el sistema financiero.",
+          "outcome": "La crisis financiera provocó una caída prolongada de los mercados. La simulación permite observar su evolución y duración.",
+          "challengeText": "La caída continúa y las noticias económicas siguen siendo preocupantes. ¿Qué haces?",
+          "holdLabel": "🧊 Mantengo mi plan",
+          "sellLabel": "😱 Lo vendo todo"
+        }
+      }
+    },
+    {
+      "id": "ukraine",
+      "status": "active",
+      "version": 1,
+      "emoji": "⚔️",
+      "startDate": "2022-02-24",
+      "challengeDayOffset": 22,
+      "xp": 30,
+      "translations": {
+        "fr": {
+          "name": "Invasion de l'Ukraine",
+          "dateLabel": "24 février 2022",
+          "teaser": "Le choc géopolitique fait monter l'incertitude.",
+          "outcome": "Les marchés ont réagi à l'invasion et à ses conséquences économiques. Le rejeu montre la trajectoire du panier choisi.",
+          "challengeText": "Les nouvelles géopolitiques inquiètent et les marchés reculent. Que fais-tu ?",
+          "holdLabel": "🧊 Je garde ma stratégie",
+          "sellLabel": "😱 Je vends tout"
+        },
+        "en": {
+          "name": "Invasion of Ukraine",
+          "dateLabel": "24 February 2022",
+          "teaser": "The geopolitical shock increases uncertainty.",
+          "outcome": "Markets reacted to the invasion and its economic consequences. The replay shows the path of the selected basket.",
+          "challengeText": "Geopolitical headlines are worrying and markets are falling. What do you do?",
+          "holdLabel": "🧊 I stick to my plan",
+          "sellLabel": "😱 I sell everything"
+        },
+        "de": {
+          "name": "Invasion der Ukraine",
+          "dateLabel": "24. Februar 2022",
+          "teaser": "Der geopolitische Schock erhöht die Unsicherheit.",
+          "outcome": "Die Märkte reagierten auf die Invasion und ihre wirtschaftlichen Folgen. Das Replay zeigt den Verlauf des gewählten Korbs.",
+          "challengeText": "Die geopolitischen Nachrichten beunruhigen und die Märkte fallen. Was tust du?",
+          "holdLabel": "🧊 Ich halte an meinem Plan fest",
+          "sellLabel": "😱 Ich verkaufe alles"
+        },
+        "es": {
+          "name": "Invasión de Ucrania",
+          "dateLabel": "24 de febrero de 2022",
+          "teaser": "El impacto geopolítico aumenta la incertidumbre.",
+          "outcome": "Los mercados reaccionaron a la invasión y a sus consecuencias económicas. La simulación muestra la evolución de la cesta elegida.",
+          "challengeText": "Las noticias geopolíticas preocupan y los mercados caen. ¿Qué haces?",
+          "holdLabel": "🧊 Mantengo mi plan",
+          "sellLabel": "😱 Lo vendo todo"
+        }
+      }
+    },
+    {
+      "id": "iaboom",
+      "status": "active",
+      "version": 1,
+      "emoji": "🚀",
+      "startDate": "2022-11-30",
+      "challengeDayOffset": 150,
+      "xp": 30,
+      "translations": {
+        "fr": {
+          "name": "Essor de l'IA",
+          "dateLabel": "30 novembre 2022",
+          "teaser": "L'arrivée de ChatGPT attire l'attention sur l'intelligence artificielle.",
+          "outcome": "Un marché en hausse peut aussi déclencher la peur de rater une occasion. Observe le parcours sans supposer que la hausse était prévisible.",
+          "challengeText": "Le marché a déjà fortement progressé et tout le monde en parle. Que fais-tu ?",
+          "holdLabel": "🧊 Je reste investi",
+          "sellLabel": "💵 Je sécurise tout"
+        },
+        "en": {
+          "name": "AI boom",
+          "dateLabel": "30 November 2022",
+          "teaser": "The launch of ChatGPT draws attention to artificial intelligence.",
+          "outcome": "A rising market can also trigger fear of missing out. Observe the path without assuming the rise was predictable.",
+          "challengeText": "The market has already risen sharply and everyone is talking about it. What do you do?",
+          "holdLabel": "🧊 I stay invested",
+          "sellLabel": "💵 I cash out"
+        },
+        "de": {
+          "name": "KI-Boom",
+          "dateLabel": "30. November 2022",
+          "teaser": "Die Veröffentlichung von ChatGPT rückt künstliche Intelligenz in den Fokus.",
+          "outcome": "Ein steigender Markt kann ebenfalls die Angst auslösen, etwas zu verpassen. Beobachte den Verlauf, ohne anzunehmen, dass der Anstieg vorhersehbar war.",
+          "challengeText": "Der Markt ist bereits stark gestiegen und alle sprechen darüber. Was tust du?",
+          "holdLabel": "🧊 Ich bleibe investiert",
+          "sellLabel": "💵 Ich sichere Gewinne"
+        },
+        "es": {
+          "name": "Auge de la IA",
+          "dateLabel": "30 de noviembre de 2022",
+          "teaser": "La llegada de ChatGPT atrae la atención hacia la inteligencia artificial.",
+          "outcome": "Un mercado alcista también puede provocar miedo a perder una oportunidad. Observa la evolución sin suponer que la subida era previsible.",
+          "challengeText": "El mercado ya ha subido mucho y todo el mundo habla de ello. ¿Qué haces?",
+          "holdLabel": "🧊 Sigo invertido",
+          "sellLabel": "💵 Aseguro el dinero"
+        }
+      }
+    },
+    {
+      "id": "tariffs",
+      "status": "active",
+      "version": 1,
+      "emoji": "💥",
+      "startDate": "2025-02-20",
+      "challengeDayOffset": 16,
+      "xp": 30,
+      "translations": {
+        "fr": {
+          "name": "Correction liée aux droits de douane",
+          "dateLabel": "20 février 2025",
+          "teaser": "Les annonces commerciales ravivent les inquiétudes.",
+          "outcome": "Les annonces de droits de douane ont accru l'incertitude et provoqué des mouvements de marché. Observe les données du rejeu plutôt que de présumer du résultat.",
+          "challengeText": "Les manchettes évoquent une guerre commerciale et les marchés reculent. Que fais-tu ?",
+          "holdLabel": "🧊 Je garde ma stratégie",
+          "sellLabel": "😱 Je vends tout"
+        },
+        "en": {
+          "name": "Tariff-related correction",
+          "dateLabel": "20 February 2025",
+          "teaser": "Trade announcements renew market concerns.",
+          "outcome": "Tariff announcements increased uncertainty and triggered market moves. Observe the replay data rather than presuming the outcome.",
+          "challengeText": "Headlines warn of a trade war and markets are falling. What do you do?",
+          "holdLabel": "🧊 I stick to my plan",
+          "sellLabel": "😱 I sell everything"
+        },
+        "de": {
+          "name": "Korrektur wegen Zöllen",
+          "dateLabel": "20. Februar 2025",
+          "teaser": "Handelsankündigungen verstärken die Sorgen an den Märkten.",
+          "outcome": "Zollankündigungen erhöhten die Unsicherheit und lösten Marktbewegungen aus. Beobachte die Replay-Daten, statt das Ergebnis vorauszusetzen.",
+          "challengeText": "Schlagzeilen warnen vor einem Handelskrieg und die Märkte fallen. Was tust du?",
+          "holdLabel": "🧊 Ich halte an meinem Plan fest",
+          "sellLabel": "😱 Ich verkaufe alles"
+        },
+        "es": {
+          "name": "Corrección por aranceles",
+          "dateLabel": "20 de febrero de 2025",
+          "teaser": "Los anuncios comerciales reavivan las preocupaciones del mercado.",
+          "outcome": "Los anuncios de aranceles aumentaron la incertidumbre y provocaron movimientos en los mercados. Observa los datos de la simulación en lugar de dar por hecho el resultado.",
+          "challengeText": "Los titulares hablan de una guerra comercial y los mercados caen. ¿Qué haces?",
+          "holdLabel": "🧊 Mantengo mi plan",
+          "sellLabel": "😱 Lo vendo todo"
+        }
+      }
+    }
+  ]
+}
