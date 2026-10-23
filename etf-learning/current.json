@@ -12,7 +12,16 @@
       ],
       "translations": {
         "fr": {
-          "body": "Exposition mondiale aux pays développés. Idéal pour débuter et diversifier en PEA."
+          "body": "Exposition aux marchés développés mondiaux. Un ETF diversifié peut être une option à étudier dans un PEA ; son adéquation dépend de votre situation."
+        },
+        "en": {
+          "body": "Exposure to developed markets worldwide. A broad-market ETF can be one option to study for a PEA, but suitability depends on your situation."
+        },
+        "de": {
+          "body": "Weltweite Anlage in Industrieländern. Ein breit gestreuter ETF kann für einen PEA infrage kommen; ob er passt, hängt von der persönlichen Situation ab."
+        },
+        "es": {
+          "body": "Análisis de mercados desarrollados de todo el mundo. Un ETF diversificado puede ser una opción para estudiar dentro de un PEA; su idoneidad depende de cada situación."
         }
       },
       "status": "active",
@@ -36,6 +45,14 @@
         "en": {
           "title": "Where do the 0.38% fees go?",
           "body": "No bill to pay! Fees are deducted directly and transparently on a daily basis from the ETF's net asset value."
+        },
+        "de": {
+          "title": "Wie werden Kosten berechnet?",
+          "body": "Laufende Kosten spiegeln sich im Fondswert wider. Die angegebene Quote gilt jährlich und umfasst möglicherweise nicht alle Transaktionskosten."
+        },
+        "es": {
+          "title": "¿Cómo se cobran los costes?",
+          "body": "Los gastos corrientes se reflejan en el valor del fondo. La tasa indicada es anual y puede no incluir todos los costes de transacción."
         }
       },
       "status": "active",
@@ -59,6 +76,14 @@
         "en": {
           "title": "MSCI World in a PEA?",
           "body": "Yes, thanks to a synthetic replication mechanism (Swap) that allows holding international equities within a French PEA."
+        },
+        "de": {
+          "title": "Wie kann ein globaler ETF PEA-fähig sein?",
+          "body": "Einige ETFs nutzen synthetische Replikation, häufig über einen Swap, um einen internationalen Index abzubilden und zugleich die PEA-Regeln einzuhalten. Lesen Sie die Fondsdokumente zu Struktur und Risiken."
+        },
+        "es": {
+          "title": "¿Cómo puede un ETF mundial ser apto para un PEA?",
+          "body": "Algunos ETF utilizan réplica sintética, a menudo mediante un swap, para seguir un índice internacional y cumplir las normas del PEA. Consulte la documentación para conocer su estructura y riesgos."
         }
       },
       "status": "active",
@@ -74,7 +99,16 @@
       ],
       "translations": {
         "fr": {
-          "body": "Alternative à CW8 par iShares avec des frais plus compétitifs (0,25%)."
+          "body": "Alternative iShares liée à l'indice MSCI World. Comparez les frais courants actuels et les documents du fonds avec ceux de CW8."
+        },
+        "en": {
+          "body": "An iShares alternative tracking the MSCI World index. Check the current ongoing charges and fund documents before comparing it with CW8."
+        },
+        "de": {
+          "body": "Eine iShares-Alternative mit Bezug zum MSCI-World-Index. Vergleichen Sie die aktuellen laufenden Kosten und Fondsdokumente mit CW8."
+        },
+        "es": {
+          "body": "Una alternativa de iShares vinculada al índice MSCI World. Compare los costes corrientes actuales y la documentación del fondo con CW8."
         }
       },
       "status": "active",
@@ -98,6 +132,14 @@
         "en": {
           "title": "Alternative at 0.25% TER",
           "body": "This iShares ETF provides the same MSCI World replication in a PEA with 0.13% lower fees per year compared to CW8."
+        },
+        "de": {
+          "title": "ETF-Kosten vergleichen",
+          "body": "Prüfen Sie vor dem Vergleich aktueller Werte den Index, die Fondsstruktur und weitere Kosten."
+        },
+        "es": {
+          "title": "Comparar los costes de los ETF",
+          "body": "Antes de comparar, compruebe los datos actualizados, el índice seguido, la estructura del fondo y otros costes."
         }
       },
       "status": "active",
@@ -114,6 +156,15 @@
       "translations": {
         "fr": {
           "body": "L'un des ETF MSCI World éligibles au PEA les moins chers du marché (0,20% TER)."
+        },
+        "en": {
+          "body": "An MSCI World ETF with stated ongoing charges of 0.20%. Verify current fees and eligibility in the fund documents."
+        },
+        "de": {
+          "body": "Ein MSCI-World-ETF mit angegebenen laufenden Kosten von 0,20 %. Prüfen Sie die aktuellen Kosten und die Eignung anhand der Fondsdokumente."
+        },
+        "es": {
+          "body": "Un ETF MSCI World con unos costes corrientes indicados del 0,20 %. Compruebe los costes actuales y la elegibilidad en la documentación del fondo."
         }
       },
       "status": "active",
@@ -130,6 +181,15 @@
       "translations": {
         "fr": {
           "body": "Exposition aux 500 plus grandes entreprises américaines via BNP Paribas."
+        },
+        "en": {
+          "body": "Exposure to the 500 largest US companies through BNP Paribas."
+        },
+        "de": {
+          "body": "Anlage in die 500 größten US-Unternehmen über BNP Paribas."
+        },
+        "es": {
+          "body": "Exposición a las 500 mayores empresas estadounidenses a través de BNP Paribas."
         }
       },
       "status": "active",
@@ -145,7 +205,16 @@
       ],
       "translations": {
         "fr": {
-          "body": "Incontournable pour s'exposer aux géants américains en PEA."
+          "body": "Exposition aux grandes entreprises américaines. Vérifiez l'indice, l'éligibilité au PEA et les risques dans la documentation du fonds."
+        },
+        "en": {
+          "body": "Exposure to large US companies. Check the index, PEA eligibility and risks in the fund documents."
+        },
+        "de": {
+          "body": "Anlage in große US-Unternehmen. Prüfen Sie Index, PEA-Eignung und Risiken in den Fondsdokumenten."
+        },
+        "es": {
+          "body": "Exposición a grandes empresas estadounidenses. Consulte el índice, la elegibilidad para el PEA y los riesgos en la documentación del fondo."
         }
       },
       "status": "active",
@@ -169,6 +238,14 @@
         "en": {
           "title": "Watch out for EUR/USD rates",
           "body": "Unhedged: if the US Dollar weakens against the Euro, ETF returns converted into Euros will be reduced."
+        },
+        "de": {
+          "title": "Währungsrisiken verstehen",
+          "body": "Bei einem nicht abgesicherten Fonds mit US-Dollar-Engagement kann ein schwächerer Dollar die Rendite in Euro mindern, ein stärkerer sie erhöhen."
+        },
+        "es": {
+          "title": "Comprender el riesgo de divisa",
+          "body": "En un fondo sin cobertura expuesto al dólar, una caída del dólar frente al euro puede reducir la rentabilidad en euros y una subida puede aumentarla."
         }
       },
       "status": "active",
@@ -184,7 +261,16 @@
       ],
       "translations": {
         "fr": {
-          "body": "Protège contre le risque de variation de la parité EUR/USD."
+          "body": "Vise à réduire l'effet des variations EUR/USD ; la couverture peut être imparfaite et comporte des coûts."
+        },
+        "en": {
+          "body": "Designed to reduce the effect of EUR/USD exchange-rate movements; hedging may be imperfect and has costs."
+        },
+        "de": {
+          "body": "Soll die Auswirkungen von EUR/USD-Wechselkursschwankungen verringern; die Absicherung ist nicht vollkommen und verursacht Kosten."
+        },
+        "es": {
+          "body": "Busca reducir el efecto de las variaciones EUR/USD; la cobertura puede ser imperfecta y tiene costes."
         }
       },
       "status": "active",
@@ -208,6 +294,14 @@
         "en": {
           "title": "Built-in Currency Hedging",
           "body": "A financial mechanism neutralizes Dollar exchange rate variations so that performance matches the S&P 500 index growth."
+        },
+        "de": {
+          "title": "Was eine Währungsabsicherung bewirkt",
+          "body": "Eine Absicherung soll Wechselkurseinflüsse verringern, kann sie aber nicht vollständig beseitigen. Sie kann Kosten verursachen und die Rendite kann vom ungesicherten Index abweichen."
+        },
+        "es": {
+          "title": "Qué hace la cobertura de divisa",
+          "body": "La cobertura busca reducir el efecto de las variaciones de cambio, pero no puede eliminarlo por completo. Puede tener costes y la rentabilidad puede diferir de la del índice sin cobertura."
         }
       },
       "status": "active",
@@ -224,6 +318,15 @@
       "translations": {
         "fr": {
           "body": "Filtre le S&P 500 selon des critères Environnementaux, Sociaux et de Gouvernance (ESG)."
+        },
+        "en": {
+          "body": "Applies environmental, social and governance (ESG) criteria to its S&P 500 exposure. Check the fund's exact screening rules."
+        },
+        "de": {
+          "body": "Wendet Umwelt-, Sozial- und Governance-Kriterien (ESG) auf das S&P-500-Anlageuniversum an. Prüfen Sie die genauen Auswahlregeln des Fonds."
+        },
+        "es": {
+          "body": "Aplica criterios ambientales, sociales y de gobernanza (ESG) a su exposición al S&P 500. Consulte los criterios de selección exactos del fondo."
         }
       },
       "status": "active",
@@ -247,6 +350,14 @@
         "en": {
           "title": "ESG Responsible Filter",
           "body": "Excludes companies that do not comply with environmental and social criteria while keeping returns close to the benchmark."
+        },
+        "de": {
+          "title": "ESG-Filter verstehen",
+          "body": "ESG-Kriterien beeinflussen die Wertpapierauswahl gemäß der Methodik des Fonds. Sie garantieren weder eine positive Wirkung noch eine benchmarknahe Rendite."
+        },
+        "es": {
+          "title": "Comprender el filtro ESG",
+          "body": "Los criterios ESG influyen en la selección de valores según la metodología del fondo. No garantizan un impacto positivo ni una rentabilidad similar a la del índice de referencia."
         }
       },
       "status": "active",
@@ -263,6 +374,15 @@
       "translations": {
         "fr": {
           "body": "Forte concentration sur les valeurs technologiques et de croissance américaines."
+        },
+        "en": {
+          "body": "Concentrated exposure to US technology and growth companies, which can increase sector concentration risk."
+        },
+        "de": {
+          "body": "Stark konzentrierte Anlage in US-Technologie- und Wachstumsunternehmen; dadurch kann das Branchenkonzentrationsrisiko steigen."
+        },
+        "es": {
+          "body": "Exposición concentrada a empresas estadounidenses de tecnología y crecimiento, lo que puede aumentar el riesgo de concentración sectorial."
         }
       },
       "status": "active",
@@ -279,6 +399,15 @@
       "translations": {
         "fr": {
           "body": "Couvre 600 entreprises majeures réparties dans 17 pays européens."
+        },
+        "en": {
+          "body": "Exposure to major European companies across several countries. Check the tracked index for the exact coverage."
+        },
+        "de": {
+          "body": "Anlage in große europäische Unternehmen aus mehreren Ländern. Für die genaue Abdeckung prüfen Sie den zugrunde liegenden Index."
+        },
+        "es": {
+          "body": "Exposición a grandes empresas europeas de varios países. Consulte el índice seguido para conocer la cobertura exacta."
         }
       },
       "status": "active",
@@ -295,6 +424,15 @@
       "translations": {
         "fr": {
           "body": "Alternative physique de BNP Paribas sur l'indice STOXX Europe 600."
+        },
+        "en": {
+          "body": "Physical-replication option from BNP Paribas linked to the STOXX Europe 600 index."
+        },
+        "de": {
+          "body": "Eine physisch replizierende Option von BNP Paribas mit Bezug zum STOXX-Europe-600-Index."
+        },
+        "es": {
+          "body": "Una opción de réplica física de BNP Paribas vinculada al índice STOXX Europe 600."
         }
       },
       "status": "active",
@@ -311,6 +449,15 @@
       "translations": {
         "fr": {
           "body": "Exposition directe aux 40 fleurons de l'économie française."
+        },
+        "en": {
+          "body": "Exposure to 40 major French companies. This is concentrated in one country and does not represent the whole global market."
+        },
+        "de": {
+          "body": "Anlage in 40 große französische Unternehmen. Sie ist auf ein Land konzentriert und bildet nicht den gesamten Weltmarkt ab."
+        },
+        "es": {
+          "body": "Exposición a 40 grandes empresas francesas. Está concentrada en un país y no representa todo el mercado mundial."
         }
       },
       "status": "active",
@@ -327,6 +474,15 @@
       "translations": {
         "fr": {
           "body": "Concentré sur les 50 plus grandes capitalisations de la zone euro."
+        },
+        "en": {
+          "body": "Exposure to 50 large euro-area companies; this is narrower than a global equity portfolio."
+        },
+        "de": {
+          "body": "Anlage in 50 große Unternehmen der Eurozone; dies ist enger gefasst als ein globales Aktienportfolio."
+        },
+        "es": {
+          "body": "Exposición a 50 grandes empresas de la zona euro; es más limitada que una cartera global de acciones."
         }
       },
       "status": "active",
@@ -343,6 +499,15 @@
       "translations": {
         "fr": {
           "body": "Exposition globale aux pays émergents (Chine, Inde, Taïwan, etc.) réservée au CTO."
+        },
+        "en": {
+          "body": "Exposure to emerging markets, including countries such as China, India and Taiwan. Confirm account eligibility before investing."
+        },
+        "de": {
+          "body": "Anlage in Schwellenländer, darunter China, Indien und Taiwan. Prüfen Sie vor einer Anlage die Zulässigkeit im jeweiligen Konto."
+        },
+        "es": {
+          "body": "Exposición a mercados emergentes, incluidos países como China, India y Taiwán. Compruebe la elegibilidad de la cuenta antes de invertir."
         }
       },
       "status": "active",
@@ -359,6 +524,15 @@
       "translations": {
         "fr": {
           "body": "Permet d'intégrer les marchés émergents dans son PEA grâce à un Swap."
+        },
+        "en": {
+          "body": "Provides emerging-market exposure through a synthetic-replication structure. Confirm PEA eligibility and understand swap-related risks."
+        },
+        "de": {
+          "body": "Ermöglicht ein Engagement in Schwellenländern über synthetische Replikation. Prüfen Sie die PEA-Eignung und verstehen Sie die Risiken von Swaps."
+        },
+        "es": {
+          "body": "Ofrece exposición a mercados emergentes mediante réplica sintética. Compruebe la elegibilidad para el PEA y los riesgos asociados a los swaps."
         }
       },
       "status": "active",
@@ -375,6 +549,15 @@
       "translations": {
         "fr": {
           "body": "Réplique l'ensemble du marché boursier japonais éligible au PEA."
+        },
+        "en": {
+          "body": "Exposure to the Japanese equity market. Check the index and the fund's current PEA eligibility."
+        },
+        "de": {
+          "body": "Anlage am japanischen Aktienmarkt. Prüfen Sie den Index und die aktuelle PEA-Eignung des Fonds."
+        },
+        "es": {
+          "body": "Exposición al mercado bursátil japonés. Compruebe el índice y la elegibilidad actual del fondo para el PEA."
         }
       },
       "status": "active",
@@ -391,6 +574,15 @@
       "translations": {
         "fr": {
           "body": "Cible la région Asie-Pacifique émergente et développée sans le Japon."
+        },
+        "en": {
+          "body": "Exposure to emerging and developed Asia-Pacific markets, excluding Japan, according to the tracked index."
+        },
+        "de": {
+          "body": "Anlage in Schwellen- und Industriemärkte im asiatisch-pazifischen Raum ohne Japan, gemäß dem zugrunde liegenden Index."
+        },
+        "es": {
+          "body": "Exposición a mercados desarrollados y emergentes de Asia-Pacífico, excluido Japón, según el índice seguido."
         }
       },
       "status": "active",
@@ -407,6 +599,15 @@
       "translations": {
         "fr": {
           "body": "Investit dans les entreprises mondiales de la chaîne de valeur de l'eau (traitement, distribution, infrastructure)."
+        },
+        "en": {
+          "body": "Exposure to companies involved in the global water value chain, including treatment, distribution and infrastructure."
+        },
+        "de": {
+          "body": "Anlage in Unternehmen der globalen Wasserwirtschaft, darunter Aufbereitung, Versorgung und Infrastruktur."
+        },
+        "es": {
+          "body": "Exposición a empresas de la cadena mundial del agua, incluido el tratamiento, la distribución y las infraestructuras."
         }
       },
       "status": "active",
@@ -423,6 +624,15 @@
       "translations": {
         "fr": {
           "body": "Cible l'utilisation durable des ressources océaniques et maritimes."
+        },
+        "en": {
+          "body": "Targets businesses related to sustainable use of ocean and marine resources. Thematic funds can be concentrated and volatile."
+        },
+        "de": {
+          "body": "Investiert in Unternehmen rund um die nachhaltige Nutzung von Meeresressourcen. Themenfonds können konzentriert und volatil sein."
+        },
+        "es": {
+          "body": "Se centra en empresas relacionadas con el uso sostenible de los recursos oceánicos y marinos. Los fondos temáticos pueden estar concentrados y ser volátiles."
         }
       },
       "status": "active",
@@ -439,6 +649,15 @@
       "translations": {
         "fr": {
           "body": "Exposition diversifiée aux grandes et moyennes valeurs européennes en PEA."
+        },
+        "en": {
+          "body": "Exposure to large and mid-sized European companies. Check the index and the fund's PEA eligibility."
+        },
+        "de": {
+          "body": "Anlage in große und mittelgroße europäische Unternehmen. Prüfen Sie den Index und die PEA-Eignung des Fonds."
+        },
+        "es": {
+          "body": "Exposición a empresas europeas grandes y medianas. Consulte el índice y la elegibilidad del fondo para el PEA."
         }
       },
       "status": "active",
@@ -455,6 +674,15 @@
       "translations": {
         "fr": {
           "body": "Couvre à la fois les pays développés et émergents en un seul ordre PEA."
+        },
+        "en": {
+          "body": "Combines developed and emerging markets in one fund. Check the underlying index and eligibility conditions."
+        },
+        "de": {
+          "body": "Vereint Industrie- und Schwellenländer in einem Fonds. Prüfen Sie den zugrunde liegenden Index und die Eignungsbedingungen."
+        },
+        "es": {
+          "body": "Combina mercados desarrollados y emergentes en un fondo. Consulte el índice subyacente y las condiciones de elegibilidad."
         }
       },
       "status": "active",
@@ -471,6 +699,15 @@
       "translations": {
         "fr": {
           "body": "Cible spécifiquement le secteur des biens et services de luxe mondiaux."
+        },
+        "en": {
+          "body": "Targets the global luxury goods and services sector; performance depends on a relatively narrow theme."
+        },
+        "de": {
+          "body": "Zielt auf den globalen Luxusgüter- und Dienstleistungssektor; die Wertentwicklung hängt von einem relativ engen Thema ab."
+        },
+        "es": {
+          "body": "Se centra en el sector mundial de bienes y servicios de lujo; su evolución depende de una temática relativamente específica."
         }
       },
       "status": "active",
@@ -486,7 +723,16 @@
       ],
       "translations": {
         "fr": {
-          "body": "Permet de sécuriser de la trésorerie dans un PEA sans sortir de l'enveloppe fiscale."
+          "body": "Un produit monétaire ou obligataire à court terme peut présenter des risques et des conditions d'éligibilité spécifiques. Vérifiez le produit exact avant de l'assimiler à des liquidités."
+        },
+        "en": {
+          "body": "A money-market or short-term bond-style product may have specific risks and eligibility conditions. Verify the exact instrument before treating it as cash."
+        },
+        "de": {
+          "body": "Ein Geldmarkt- oder kurzfristiges Anleiheprodukt kann besondere Risiken und Eignungsbedingungen haben. Prüfen Sie das genaue Produkt, bevor Sie es wie Bargeld behandeln."
+        },
+        "es": {
+          "body": "Un producto monetario o de bonos a corto plazo puede tener riesgos y condiciones de elegibilidad específicos. Verifique el instrumento antes de tratarlo como efectivo."
         }
       },
       "status": "active",
@@ -503,6 +749,15 @@
       "translations": {
         "fr": {
           "body": "CAC 40 classique qui réinvestit automatiquement les dividendes."
+        },
+        "en": {
+          "body": "CAC 40 exposure with dividends reinvested by the fund, subject to its distribution policy."
+        },
+        "de": {
+          "body": "Anlage im CAC 40, wobei Dividenden gemäß der Fondspolitik wiederangelegt werden."
+        },
+        "es": {
+          "body": "Exposición al CAC 40 con reinversión de dividendos según la política del fondo."
         }
       },
       "status": "active",
@@ -519,6 +774,15 @@
       "translations": {
         "fr": {
           "body": "Distribue périodiquement les dividendes des entreprises du CAC 40 sur le compte de l'investisseur."
+        },
+        "en": {
+          "body": "CAC 40 exposure with dividends distributed according to the fund's policy."
+        },
+        "de": {
+          "body": "Anlage im CAC 40 mit Ausschüttung von Dividenden gemäß der Fondspolitik."
+        },
+        "es": {
+          "body": "Exposición al CAC 40 con distribución de dividendos según la política del fondo."
         }
       },
       "status": "active",
@@ -535,6 +799,15 @@
       "translations": {
         "fr": {
           "body": "Variante de réplication du CAC 40."
+        },
+        "en": {
+          "body": "An alternative replication approach for CAC 40 exposure. Check the fund's replication method and documents."
+        },
+        "de": {
+          "body": "Eine alternative Replikationsmethode für ein CAC-40-Engagement. Prüfen Sie die Replikationsmethode und Fondsdokumente."
+        },
+        "es": {
+          "body": "Un método alternativo de réplica para obtener exposición al CAC 40. Consulte el método de réplica y la documentación del fondo."
         }
       },
       "status": "active",
@@ -551,6 +824,15 @@
       "translations": {
         "fr": {
           "body": "Exclut les entreprises du CAC 40 ayant les moins bonnes pratiques ESG."
+        },
+        "en": {
+          "body": "Applies ESG exclusions to its CAC 40 exposure. Review the fund's screening methodology and remaining concentration risk."
+        },
+        "de": {
+          "body": "Wendet ESG-Ausschlusskriterien auf die CAC-40-Anlage an. Prüfen Sie die Auswahlmethodik und das verbleibende Konzentrationsrisiko."
+        },
+        "es": {
+          "body": "Aplica exclusiones ESG a su exposición al CAC 40. Revise la metodología de selección y el riesgo de concentración restante."
         }
       },
       "status": "active",
@@ -566,7 +848,16 @@
       ],
       "translations": {
         "fr": {
-          "body": "Produit dérivé à effet de levier inverse -2x. Réinitialisé quotidiennement. Risque élevé de bêta-slippage."
+          "body": "Produit à levier inverse visant environ -2x la variation quotidienne de son indice de référence. Le rééquilibrage quotidien peut entraîner des écarts importants à long terme ; risque élevé."
+        },
+        "en": {
+          "body": "Inverse leveraged product targeting roughly -2x daily performance of its benchmark. Daily reset can cause significant long-term tracking differences; it is high risk."
+        },
+        "de": {
+          "body": "Inverse Hebelprodukt mit einem Ziel von ungefähr -2x der täglichen Benchmark-Entwicklung. Die tägliche Anpassung kann langfristig zu erheblichen Abweichungen führen; hohes Risiko."
+        },
+        "es": {
+          "body": "Producto apalancado inverso con un objetivo aproximado de -2x la evolución diaria de su índice. El reajuste diario puede causar desviaciones importantes a largo plazo; riesgo elevado."
         }
       },
       "status": "active",
@@ -583,6 +874,15 @@
       "translations": {
         "fr": {
           "body": "Exposition concentrée au secteur des télécommunications en Europe."
+        },
+        "en": {
+          "body": "Concentrated exposure to the European telecommunications sector; sector-specific risks apply."
+        },
+        "de": {
+          "body": "Konzentrierte Anlage im europäischen Telekommunikationssektor; branchenspezifische Risiken sind zu beachten."
+        },
+        "es": {
+          "body": "Exposición concentrada al sector europeo de telecomunicaciones; existen riesgos específicos del sector."
         }
       },
       "status": "active",
@@ -599,6 +899,15 @@
       "translations": {
         "fr": {
           "body": "Exposition au secteur des compagnies d'assurance européennes."
+        },
+        "en": {
+          "body": "Concentrated exposure to European insurance companies; sector-specific risks apply."
+        },
+        "de": {
+          "body": "Konzentrierte Anlage in europäische Versicherungsunternehmen; branchenspezifische Risiken sind zu beachten."
+        },
+        "es": {
+          "body": "Exposición concentrada a compañías de seguros europeas; existen riesgos específicos del sector."
         }
       },
       "status": "active",
