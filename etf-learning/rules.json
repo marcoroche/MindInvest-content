@@ -14,12 +14,20 @@
       ],
       "translations": {
         "fr": {
-          "title": "Où vont les {{expenseRatioPercent}} % de frais ?",
-          "body": "Pas de facture séparée : les frais de gestion sont prélevés progressivement sur les actifs du fonds et se reflètent dans la valeur de l'ETF."
+          "title": "Frais courants",
+          "body": "Les frais courants sont intégrés à la valeur du fonds. Le taux affiché est annuel et peut ne pas inclure tous les coûts de transaction."
         },
         "en": {
-          "title": "Where do the {{expenseRatioPercent}}% fees go?",
-          "body": "There is no separate bill: management fees are deducted progressively from the fund's assets and are reflected in the ETF's value."
+          "title": "Ongoing charges",
+          "body": "Ongoing charges are reflected in the fund's value. The stated rate is annual and may not include all transaction costs."
+        },
+        "de": {
+          "title": "Laufende Kosten",
+          "body": "Laufende Kosten spiegeln sich im Fondswert wider. Die angegebene Quote gilt jährlich und umfasst möglicherweise nicht alle Transaktionskosten."
+        },
+        "es": {
+          "title": "Gastos corrientes",
+          "body": "Los gastos corrientes se reflejan en el valor del fondo. La tasa indicada es anual y puede no incluir todos los costes de transacción."
         }
       },
       "status": "active",
@@ -34,12 +42,20 @@
       "condition": "PEA_SYNTHETIC",
       "translations": {
         "fr": {
-          "title": "Éligible au PEA grâce à la réplication synthétique",
-          "body": "Un contrat d'échange (swap) permet à cet ETF de suivre un indice qui ne serait pas directement accessible dans un PEA via une réplication physique."
+          "title": "Réplication synthétique et PEA",
+          "body": "Un swap peut permettre à un ETF de suivre un indice international tout en respectant les règles du PEA. Consultez les documents du fonds pour comprendre sa structure et ses risques."
         },
         "en": {
-          "title": "PEA eligible through synthetic replication",
-          "body": "A swap agreement allows this ETF to track an index that may not be directly accessible in a PEA through physical replication."
+          "title": "Synthetic replication and PEA",
+          "body": "A swap may allow an ETF to track an international index while meeting PEA rules. Check the fund documents to understand its structure and risks."
+        },
+        "de": {
+          "title": "Synthetische Replikation und PEA",
+          "body": "Ein Swap kann es einem ETF ermöglichen, einen internationalen Index abzubilden und zugleich die PEA-Regeln einzuhalten. Prüfen Sie Struktur und Risiken in den Fondsdokumenten."
+        },
+        "es": {
+          "title": "Réplica sintética y PEA",
+          "body": "Un swap puede permitir que un ETF siga un índice internacional y cumpla las normas del PEA. Consulte la documentación para comprender su estructura y riesgos."
         }
       },
       "status": "active",
@@ -54,12 +70,20 @@
       "condition": "PEA_PHYSICAL",
       "translations": {
         "fr": {
-          "title": "Éligible au PEA",
-          "body": "L'éligibilité au PEA dépend des règles fiscales applicables et des caractéristiques du fonds. Consultez la documentation de l'émetteur pour confirmer les modalités de réplication."
+          "title": "Éligibilité au PEA",
+          "body": "L'éligibilité dépend des règles applicables et des caractéristiques du fonds. Consultez la documentation de l'émetteur et les informations de votre courtier."
         },
         "en": {
-          "title": "PEA eligible",
-          "body": "PEA eligibility depends on applicable tax rules and fund characteristics. Check the issuer's documentation to confirm the replication method."
+          "title": "PEA eligibility",
+          "body": "Eligibility depends on applicable rules and the fund's characteristics. Check the issuer's documents and your broker's information."
+        },
+        "de": {
+          "title": "PEA-Eignung",
+          "body": "Die Eignung hängt von den geltenden Regeln und den Eigenschaften des Fonds ab. Prüfen Sie die Unterlagen des Anbieters und die Informationen Ihres Brokers."
+        },
+        "es": {
+          "title": "Elegibilidad para el PEA",
+          "body": "La elegibilidad depende de las normas aplicables y de las características del fondo. Consulte la documentación del emisor y la información de su intermediario."
         }
       },
       "status": "active",
@@ -75,11 +99,19 @@
       "translations": {
         "fr": {
           "title": "Éligibilité au compte",
-          "body": "D'après les données disponibles, cet ETF n'est pas indiqué comme éligible au PEA. Vérifiez sa documentation et les règles de votre courtier avant d'investir."
+          "body": "Les données disponibles n'indiquent pas que cet ETF soit éligible au PEA. Vérifiez la documentation et les règles de votre courtier avant d'investir."
         },
         "en": {
           "title": "Account eligibility",
-          "body": "Based on the available data, this ETF is not marked as PEA eligible. Check its documentation and your broker's rules before investing."
+          "body": "Available data does not indicate that this ETF is PEA eligible. Check the fund documents and your broker's rules before investing."
+        },
+        "de": {
+          "title": "Kontoeignung",
+          "body": "Die verfügbaren Daten weisen diesen ETF nicht als PEA-fähig aus. Prüfen Sie vor einer Anlage die Fondsdokumente und die Regeln Ihres Brokers."
+        },
+        "es": {
+          "title": "Elegibilidad de la cuenta",
+          "body": "Los datos disponibles no indican que este ETF sea apto para el PEA. Consulte la documentación y las normas de su intermediario antes de invertir."
         }
       },
       "status": "active",
@@ -95,11 +127,19 @@
       "translations": {
         "fr": {
           "title": "ETF capitalisant",
-          "body": "Les revenus perçus par le fonds sont réinvestis plutôt que distribués directement aux investisseurs. Le traitement fiscal dépend notamment de l'enveloppe de détention."
+          "body": "Les revenus perçus par le fonds sont réinvestis plutôt que versés directement aux investisseurs. Le traitement fiscal dépend aussi du compte utilisé."
         },
         "en": {
           "title": "Accumulating ETF",
-          "body": "Income received by the fund is reinvested rather than paid directly to investors. Tax treatment also depends on the account in which you hold it."
+          "body": "Income received by the fund is reinvested rather than paid directly to investors. Tax treatment also depends on the account used."
+        },
+        "de": {
+          "title": "Thesaurierender ETF",
+          "body": "Erträge des Fonds werden wiederangelegt, statt direkt an Anleger ausgezahlt zu werden. Die steuerliche Behandlung hängt auch vom Anlagekonto ab."
+        },
+        "es": {
+          "title": "ETF de acumulación",
+          "body": "Los ingresos del fondo se reinvierten en lugar de pagarse directamente a los inversores. El tratamiento fiscal también depende de la cuenta utilizada."
         }
       },
       "status": "active",
@@ -115,11 +155,19 @@
       "translations": {
         "fr": {
           "title": "ETF distribuant",
-          "body": "Les revenus distribuables du fonds peuvent être versés aux investisseurs. Le montant et la fréquence des distributions ne sont pas garantis."
+          "body": "Le fonds peut verser les revenus distribuables aux investisseurs. Le montant et la fréquence des versements ne sont pas garantis."
         },
         "en": {
           "title": "Distributing ETF",
-          "body": "The fund may pay distributable income to investors. The amount and frequency of distributions are not guaranteed."
+          "body": "The fund may pay distributable income to investors. The amount and frequency of payments are not guaranteed."
+        },
+        "de": {
+          "title": "Ausschüttender ETF",
+          "body": "Der Fonds kann ausschüttungsfähige Erträge an Anleger auszahlen. Höhe und Häufigkeit der Zahlungen sind nicht garantiert."
+        },
+        "es": {
+          "title": "ETF de distribución",
+          "body": "El fondo puede pagar a los inversores los ingresos distribuibles. El importe y la frecuencia de los pagos no están garantizados."
         }
       },
       "status": "active",
@@ -135,11 +183,19 @@
       "translations": {
         "fr": {
           "title": "Couverture du risque de change",
-          "body": "La couverture vise à réduire l'effet des variations de change, mais elle n'élimine pas tous les risques et peut générer des coûts ou des écarts de performance."
+          "body": "La couverture vise à réduire l'effet des variations de change, mais n'élimine pas tous les risques et peut entraîner des coûts ou des écarts de performance."
         },
         "en": {
           "title": "Currency hedging",
-          "body": "Hedging aims to reduce the impact of exchange-rate movements, but it does not eliminate all risks and may introduce costs or tracking differences."
+          "body": "Hedging aims to reduce the impact of exchange-rate movements, but does not remove all risks and may involve costs or tracking differences."
+        },
+        "de": {
+          "title": "Währungsabsicherung",
+          "body": "Eine Absicherung soll Wechselkurseinflüsse verringern, beseitigt aber nicht alle Risiken und kann Kosten oder Abweichungen verursachen."
+        },
+        "es": {
+          "title": "Cobertura de divisa",
+          "body": "La cobertura busca reducir el efecto de las variaciones de cambio, pero no elimina todos los riesgos y puede generar costes o diferencias de seguimiento."
         }
       },
       "status": "active",
@@ -155,11 +211,19 @@
       "translations": {
         "fr": {
           "title": "Comprendre le risque de change",
-          "body": "Si les actifs sous-jacents sont exposés à des devises étrangères et que le fonds n'est pas couvert, les variations de change peuvent augmenter ou réduire la performance mesurée en euros."
+          "body": "Sans couverture, les variations de change peuvent augmenter ou réduire la performance d'un fonds exposé à des devises étrangères, mesurée en euros."
         },
         "en": {
           "title": "Understanding currency risk",
-          "body": "If the underlying assets are exposed to foreign currencies and the fund is unhedged, exchange-rate movements can increase or reduce returns measured in euros."
+          "body": "Without hedging, exchange-rate movements can increase or reduce the euro-denominated returns of a fund exposed to foreign currencies."
+        },
+        "de": {
+          "title": "Währungsrisiken verstehen",
+          "body": "Ohne Absicherung können Wechselkursschwankungen die in Euro gemessene Rendite eines Fonds mit Fremdwährungsrisiken erhöhen oder verringern."
+        },
+        "es": {
+          "title": "Comprender el riesgo de divisa",
+          "body": "Sin cobertura, las variaciones del tipo de cambio pueden aumentar o reducir la rentabilidad en euros de un fondo expuesto a divisas extranjeras."
         }
       },
       "status": "active",
