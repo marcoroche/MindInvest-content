@@ -33,12 +33,12 @@
         "fr": {
           "front": "PEA",
           "back": "Plan d'Épargne en Actions : enveloppe fiscale française (plafond de 150 000 €) dont les plus-values sont exonérées d'impôt après 5 ans de détention.",
-          "explanation": "Seuls les ETF éligibles (réplication synthétique ou actions européennes) y sont logeables. Les retraits avant 5 ans clôturent le plan et déclenchent la fiscalité."
+          "explanation": "Seuls les placements éligibles peuvent être détenus dans un PEA. Un retrait avant 5 ans entraîne généralement la clôture du plan, sous réserve d’exceptions prévues par la réglementation. Les règles fiscales doivent être vérifiées selon la situation et la date."
         },
         "en": {
           "front": "PEA",
           "back": "French savings plan (capped at €150,000) whose capital gains are tax-free after 5 years of holding.",
-          "explanation": "Only PEA-eligible ETFs can be held. Early withdrawals close the plan and trigger taxes."
+          "explanation": "Only eligible investments can be held in a PEA. A withdrawal before 5 years generally closes the plan, subject to regulatory exceptions. Tax treatment should be checked for the individual situation and current rules."
         }
       }
     },
@@ -53,12 +53,12 @@
         "fr": {
           "front": "CTO",
           "back": "Compte-Titres Ordinaire : compte sans avantage fiscal spécifique, qui donne accès à tous les marchés mondiaux et à toutes les classes d'actifs.",
-          "explanation": "Le CTO complète le PEA : il est indispensable pour investir hors Europe. Chaque cession y est imposable."
+          "explanation": "Le CTO peut donner accès à des titres et marchés non disponibles dans un PEA. Son utilité dépend des placements envisagés et de la situation fiscale ; les règles d’imposition varient selon les opérations et la réglementation en vigueur."
         },
         "en": {
           "front": "CTO",
           "back": "Ordinary securities account with no specific tax advantage, giving access to all world markets and asset classes.",
-          "explanation": "The CTO complements the PEA: it is required to invest outside Europe. Every sale is taxable."
+          "explanation": "A CTO can provide access to securities and markets that are not available in a PEA. Whether it is useful depends on the investments considered and the investor’s tax situation; taxation varies with the transaction and current rules."
         }
       }
     },
@@ -74,12 +74,12 @@
         "fr": {
           "front": "Diversification",
           "back": "Répartir son capital entre plusieurs zones géographiques, secteurs et classes d'actifs pour réduire le risque spécifique d'un seul titre.",
-          "explanation": "Le « repas gratuit » de la finance : à rendement égal, un portefeuille diversifié est moins volatile. Un ETF World diversifie sur des milliers d'entreprises en un seul ordre."
+          "explanation": "La diversification peut réduire le risque propre à une entreprise ou à un secteur, sans éliminer le risque de marché ni garantir un rendement. Un ETF World peut exposer à de nombreuses entreprises via un seul produit."
         },
         "en": {
           "front": "Diversification",
           "back": "Spreading capital across geographies, sectors and asset classes to reduce the risk of any single holding.",
-          "explanation": "Finance's only 'free lunch': at equal return, a diversified portfolio is less volatile."
+          "explanation": "Diversification can reduce company- or sector-specific risk, but it does not remove market risk or guarantee returns."
         }
       }
     },
@@ -94,12 +94,12 @@
         "fr": {
           "front": "Cœur de portefeuille",
           "back": "La partie centrale et largement diversifiée de votre portefeuille (souvent un ETF World ou ACWI), qui porte l'essentiel de la performance long terme.",
-          "explanation": "Stratégie « cœur-satellite » : le cœur (80-90 %) est passif et diversifié ; les satellites (10-20 %) sont des paris thématiques ou sectoriels, à risque limité."
+          "explanation": "La stratégie « cœur-satellite » associe une partie centrale diversifiée à des positions complémentaires plus ciblées. Les proportions et les risques varient selon les choix, les objectifs et la situation de chaque investisseur ; les positions thématiques ou sectorielles peuvent subir des pertes importantes."
         },
         "en": {
           "front": "Core portfolio",
           "back": "The central, broadly diversified part of your portfolio (often a World ETF) that carries most of the long-term performance.",
-          "explanation": "'Core-satellite' strategy: the core (80-90%) is passive and diversified; satellites (10-20%) are thematic bets with limited risk."
+          "explanation": "A 'core-satellite' strategy combines a broadly diversified core with more targeted complementary holdings. Proportions and risks vary with each investor’s choices, goals and circumstances; thematic or sector holdings can incur substantial losses."
         }
       }
     },
