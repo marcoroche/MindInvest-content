@@ -19,6 +19,16 @@
           "front": "ETF / Tracker",
           "back": "Exchange-Traded Fund: a fund that replicates an index and trades on exchanges continuously, like a regular stock.",
           "explanation": "Unlike a traditional mutual fund priced once a day, ETFs trade in real time."
+        },
+        "de": {
+          "front": "ETF / Tracker",
+          "back": "Ein börsengehandelter Fonds, der einen Index abbildet und wie eine Aktie fortlaufend an der Börse gehandelt wird.",
+          "explanation": "Anders als ein klassischer Investmentfonds, dessen Wert meist einmal täglich berechnet wird, werden ETFs in Echtzeit gehandelt."
+        },
+        "es": {
+          "front": "ETF / Fondo cotizado",
+          "back": "Un fondo cotizado que replica un índice y se negocia continuamente en bolsa, como una acción ordinaria.",
+          "explanation": "A diferencia de un fondo tradicional valorado una vez al día, los ETF se negocian en tiempo real."
         }
       }
     },
@@ -39,6 +49,16 @@
           "front": "PEA",
           "back": "French savings plan (capped at €150,000) whose capital gains are tax-free after 5 years of holding.",
           "explanation": "Only eligible investments can be held in a PEA. A withdrawal before 5 years generally closes the plan, subject to regulatory exceptions. Tax treatment should be checked for the individual situation and current rules."
+        },
+        "de": {
+          "front": "PEA",
+          "back": "Französischer Aktiensparplan mit einer allgemeinen Einzahlungsgrenze von 150.000 €, dessen Kursgewinne nach fünf Jahren Haltedauer einkommensteuerfrei sind.",
+          "explanation": "Nur zulässige Anlagen dürfen in einem PEA gehalten werden. Eine Auszahlung vor fünf Jahren führt grundsätzlich zur Schließung, vorbehaltlich gesetzlicher Ausnahmen. Die steuerliche Behandlung hängt von der persönlichen Situation und den geltenden Regeln ab."
+        },
+        "es": {
+          "front": "PEA",
+          "back": "Plan francés de ahorro en acciones, con un límite general de aportaciones de 150.000 €, cuyas plusvalías están exentas de impuestos sobre la renta tras cinco años de tenencia.",
+          "explanation": "Solo pueden mantenerse inversiones elegibles en un PEA. Una retirada antes de cinco años suele cerrar el plan, salvo excepciones legales. El tratamiento fiscal debe comprobarse según la situación personal y la normativa vigente."
         }
       }
     },
@@ -59,6 +79,16 @@
           "front": "CTO",
           "back": "Ordinary securities account with no specific tax advantage, giving access to all world markets and asset classes.",
           "explanation": "A CTO can provide access to securities and markets that are not available in a PEA. Whether it is useful depends on the investments considered and the investor’s tax situation; taxation varies with the transaction and current rules."
+        },
+        "de": {
+          "front": "CTO",
+          "back": "Gewöhnliches Wertpapierdepot ohne besonderen Steuervorteil, das Zugang zu weltweiten Märkten und verschiedenen Anlageklassen bietet.",
+          "explanation": "Ein CTO kann Zugang zu Wertpapieren und Märkten bieten, die in einem PEA nicht verfügbar sind. Der Nutzen hängt von den geplanten Anlagen und der steuerlichen Situation ab; die Besteuerung richtet sich nach Transaktion und geltenden Regeln."
+        },
+        "es": {
+          "front": "CTO",
+          "back": "Cuenta ordinaria de valores sin ventajas fiscales específicas, que permite acceder a mercados mundiales y distintas clases de activos.",
+          "explanation": "Una cuenta CTO puede dar acceso a valores y mercados no disponibles en un PEA. Su utilidad depende de las inversiones previstas y de la situación fiscal; la tributación varía según la operación y la normativa vigente."
         }
       }
     },
@@ -80,6 +110,16 @@
           "front": "Diversification",
           "back": "Spreading capital across geographies, sectors and asset classes to reduce the risk of any single holding.",
           "explanation": "Diversification can reduce company- or sector-specific risk, but it does not remove market risk or guarantee returns."
+        },
+        "de": {
+          "front": "Diversifikation",
+          "back": "Verteilung des Kapitals auf verschiedene Regionen, Branchen und Anlageklassen, um das Risiko einzelner Positionen zu verringern.",
+          "explanation": "Diversifikation kann unternehmens- und branchenspezifische Risiken senken, beseitigt aber weder das Marktrisiko noch garantiert sie Renditen."
+        },
+        "es": {
+          "front": "Diversificación",
+          "back": "Distribuir el capital entre regiones, sectores y clases de activos para reducir el riesgo de una inversión concreta.",
+          "explanation": "La diversificación puede reducir los riesgos específicos de empresas o sectores, pero no elimina el riesgo de mercado ni garantiza rentabilidad."
         }
       }
     },
@@ -100,6 +140,16 @@
           "front": "Core portfolio",
           "back": "The central, broadly diversified part of your portfolio (often a World ETF) that carries most of the long-term performance.",
           "explanation": "A 'core-satellite' strategy combines a broadly diversified core with more targeted complementary holdings. Proportions and risks vary with each investor’s choices, goals and circumstances; thematic or sector holdings can incur substantial losses."
+        },
+        "de": {
+          "front": "Kernportfolio",
+          "back": "Der zentrale, breit gestreute Teil des Portfolios (häufig ein World-ETF), der den größten Teil der langfristigen Wertentwicklung tragen soll.",
+          "explanation": "Eine Core-Satellite-Strategie verbindet einen breit diversifizierten Kern mit gezielten Ergänzungen. Anteile und Risiken hängen von Zielen und Umständen ab; Themen- oder Branchenanlagen können erhebliche Verluste verursachen."
+        },
+        "es": {
+          "front": "Cartera principal",
+          "back": "La parte central y ampliamente diversificada de la cartera (a menudo un ETF mundial), que concentra gran parte del rendimiento a largo plazo.",
+          "explanation": "Una estrategia núcleo-satélite combina una base diversificada con inversiones complementarias específicas. Las proporciones y los riesgos dependen de cada inversor; los ETF temáticos o sectoriales pueden sufrir pérdidas importantes."
         }
       }
     },
@@ -123,6 +173,16 @@
           "front": "TER (Total Expense Ratio)",
           "back": "An ETF's total annual cost, deducted automatically from its net asset value. 0.20% = €2 per year per €1,000 invested.",
           "explanation": "No bill received: fees are captured daily inside the ETF price. Over 20 years, 1% lower fees can mean over 20% more capital."
+        },
+        "de": {
+          "front": "TER (Gesamtkostenquote)",
+          "back": "Die jährlichen Gesamtkosten eines ETF, die automatisch vom Nettoinventarwert abgezogen werden. 0,20 % entsprechen 2 € pro Jahr je 1.000 € Anlage.",
+          "explanation": "Es gibt keine separate Rechnung: Die Kosten werden täglich im ETF-Preis berücksichtigt. Über 20 Jahre können 1 Prozentpunkt weniger Gebühren zu mehr als 20 % zusätzlichem Kapital führen."
+        },
+        "es": {
+          "front": "TER (ratio de gastos totales)",
+          "back": "Coste anual total de un ETF, descontado automáticamente de su valor liquidativo. Un 0,20 % equivale a 2 € al año por cada 1.000 € invertidos.",
+          "explanation": "No se recibe una factura: los gastos se incorporan diariamente al precio del ETF. Durante 20 años, reducir las comisiones en un punto porcentual puede generar más de un 20 % de capital adicional."
         }
       }
     },
@@ -145,6 +205,16 @@
           "front": "Currency hedging",
           "back": "A mechanism neutralizing EUR/USD or EUR/JPY fluctuations on an international ETF's performance.",
           "explanation": "An unhedged US ETF can lose in euros even when the index rises, if the dollar falls."
+        },
+        "de": {
+          "front": "Währungsabsicherung",
+          "back": "Ein Mechanismus, der Wechselkursschwankungen wie EUR/USD oder EUR/JPY bei der Wertentwicklung eines internationalen ETF ausgleichen soll.",
+          "explanation": "Ein nicht währungsgesicherter US-ETF kann in Euro Verluste erzielen, obwohl der Index steigt, wenn der Dollar fällt."
+        },
+        "es": {
+          "front": "Cobertura de divisa",
+          "back": "Mecanismo que busca neutralizar las fluctuaciones del EUR/USD o EUR/JPY en la rentabilidad de un ETF internacional.",
+          "explanation": "Un ETF estadounidense sin cobertura puede perder valor en euros aunque suba el índice, si el dólar cae."
         }
       }
     },
@@ -166,6 +236,16 @@
           "front": "Synthetic replication",
           "back": "The ETF does not hold the securities directly: it uses a swap with a bank to replicate the index exactly — even worldwide indices inside a PEA.",
           "explanation": "The swap makes indices like MSCI World PEA-eligible. Counterparty risk exists but is regulated through collateral."
+        },
+        "de": {
+          "front": "Synthetische Replikation",
+          "back": "Der ETF hält die Wertpapiere nicht direkt, sondern nutzt einen Swap mit einer Bank, um die Indexentwicklung nachzubilden – auch bei weltweiten Indizes innerhalb eines PEA.",
+          "explanation": "Der Swap kann Indizes wie den MSCI World für einen PEA zugänglich machen. Es besteht ein Kontrahentenrisiko, das durch Sicherheiten und Regulierung begrenzt wird."
+        },
+        "es": {
+          "front": "Replicación sintética",
+          "back": "El ETF no posee directamente los valores: utiliza un swap con un banco para replicar el índice, incluso índices mundiales dentro de un PEA.",
+          "explanation": "El swap permite que índices como el MSCI World sean elegibles para un PEA. Existe riesgo de contraparte, limitado mediante garantías y regulación."
         }
       }
     },
@@ -187,6 +267,16 @@
           "front": "Acc ETF (Accumulation)",
           "back": "Dividends are automatically reinvested in the fund: the share price grows, with no cash payout.",
           "explanation": "Dividend compounding drives compound interest. Within a PEA, Accumulation is usually simpler and more tax-efficient."
+        },
+        "de": {
+          "front": "Thesaurierender ETF",
+          "back": "Dividenden werden automatisch im Fonds wiederangelegt: Der Anteilspreis steigt, ohne dass Geld ausgezahlt wird.",
+          "explanation": "Die Wiederanlage von Dividenden trägt zum Zinseszinseffekt bei. Innerhalb eines PEA ist die thesaurierende Variante oft einfacher und steuerlich effizienter."
+        },
+        "es": {
+          "front": "ETF de acumulación",
+          "back": "Los dividendos se reinvierten automáticamente en el fondo: aumenta el precio de la participación y no se recibe efectivo.",
+          "explanation": "La reinversión de dividendos impulsa el interés compuesto. Dentro de un PEA, la modalidad de acumulación suele ser más sencilla y eficiente fiscalmente."
         }
       }
     },
@@ -208,6 +298,16 @@
           "front": "Dist ETF (Distribution)",
           "back": "The ETF pays dividends in cash to your account periodically (quarterly, semi-annually or annually).",
           "explanation": "Useful for regular income. In a taxable account each payout is taxed immediately, unlike Accumulation."
+        },
+        "de": {
+          "front": "Ausschüttender ETF",
+          "back": "Der ETF zahlt regelmäßig Dividenden auf das Konto aus, beispielsweise vierteljährlich, halbjährlich oder jährlich.",
+          "explanation": "Nützlich für regelmäßige Einnahmen. In einem steuerpflichtigen Depot wird jede Ausschüttung sofort besteuert, anders als bei der Wiederanlage."
+        },
+        "es": {
+          "front": "ETF de distribución",
+          "back": "El ETF abona periódicamente dividendos en efectivo en la cuenta, por ejemplo cada trimestre, semestre o año.",
+          "explanation": "Es útil para obtener ingresos periódicos. En una cuenta sujeta a impuestos, cada pago tributa de inmediato, a diferencia de la acumulación."
         }
       }
     },
@@ -230,6 +330,16 @@
           "front": "ESG",
           "back": "Environmental, Social, Governance: a filter selecting companies with the best sustainability practices.",
           "explanation": "An ESG ETF keeps performance close to the parent index while excluding the worst actors."
+        },
+        "de": {
+          "front": "ESG",
+          "back": "Umwelt, Soziales und Unternehmensführung: Kriterien zur Auswahl von Unternehmen mit besseren Nachhaltigkeitspraktiken.",
+          "explanation": "Ein ESG-ETF kann der Wertentwicklung seines Ausgangsindex nahekommen und zugleich Unternehmen mit besonders schlechten Praktiken ausschließen."
+        },
+        "es": {
+          "front": "ESG",
+          "back": "Criterios ambientales, sociales y de gobernanza para seleccionar empresas con mejores prácticas de sostenibilidad.",
+          "explanation": "Un ETF ESG puede mantener una evolución cercana a la del índice de referencia y excluir a las empresas con peores prácticas."
         }
       }
     },
@@ -250,6 +360,16 @@
           "front": "Thematic ETF",
           "back": "An ETF focused on a single theme (water, luxury, tech...). High growth potential, but a concentrated bet to size carefully.",
           "explanation": "Usual rule: cap satellites at 10-15% of the portfolio."
+        },
+        "de": {
+          "front": "Themen-ETF",
+          "back": "Ein ETF mit Schwerpunkt auf einem einzelnen Thema wie Wasser, Luxus oder Technologie. Hohes Wachstumspotenzial, aber eine konzentrierte Anlage, die sorgfältig dosiert werden sollte.",
+          "explanation": "Eine gängige Orientierung ist, Satellitenanlagen auf 10–15 % des Portfolios zu begrenzen."
+        },
+        "es": {
+          "front": "ETF temático",
+          "back": "ETF centrado en un único tema, como agua, lujo o tecnología. Tiene potencial de crecimiento, pero concentra el riesgo y debe dimensionarse con cuidado.",
+          "explanation": "Una regla orientativa habitual es limitar las inversiones satélite al 10–15 % de la cartera."
         }
       }
     },
@@ -270,6 +390,16 @@
           "front": "Water economy",
           "back": "A theme investing across the entire water value chain: treatment, distribution, infrastructure and technology.",
           "explanation": "Growing scarcity, aging infrastructure and regulation are structural drivers over the long term."
+        },
+        "de": {
+          "front": "Wasserwirtschaft",
+          "back": "Ein Anlagethema entlang der gesamten Wasserwertschöpfungskette: Aufbereitung, Verteilung, Infrastruktur und Technologie.",
+          "explanation": "Zunehmende Wasserknappheit, alternde Infrastruktur und Regulierung sind langfristige strukturelle Einflussfaktoren."
+        },
+        "es": {
+          "front": "Economía del agua",
+          "back": "Tema de inversión que abarca toda la cadena de valor del agua: tratamiento, distribución, infraestructuras y tecnología.",
+          "explanation": "La creciente escasez de agua, las infraestructuras envejecidas y la regulación son factores estructurales a largo plazo."
         }
       }
     },
@@ -291,6 +421,16 @@
           "front": "Blue economy",
           "back": "Investing in the sustainable use of ocean resources: aquaculture, marine energy, coastal management and clean shipping.",
           "explanation": "The ocean produces half the planet's oxygen and absorbs most excess heat."
+        },
+        "de": {
+          "front": "Blaue Wirtschaft",
+          "back": "Nachhaltige Nutzung der Meeresressourcen, etwa Aquakultur, Meeresenergie, Küstenmanagement und umweltfreundliche Schifffahrt.",
+          "explanation": "Die Ozeane erzeugen etwa die Hälfte des Sauerstoffs auf der Erde und nehmen den Großteil der überschüssigen Wärme auf."
+        },
+        "es": {
+          "front": "Economía azul",
+          "back": "Uso sostenible de los recursos oceánicos: acuicultura, energía marina, gestión costera y transporte marítimo limpio.",
+          "explanation": "Los océanos producen aproximadamente la mitad del oxígeno del planeta y absorben la mayor parte del exceso de calor."
         }
       }
     },
@@ -313,6 +453,16 @@
           "front": "Leveraged / inverse ETF",
           "back": "Products amplifying an index's daily move (2x, -1x, -2x). Daily reset creates beta-slippage.",
           "explanation": "Even a flat index can make a 2x ETF lose money over time. Short-term instruments only, not for long-term investing."
+        },
+        "de": {
+          "front": "Gehebelter / inverser ETF",
+          "back": "Produkte, die tägliche Indexbewegungen verstärken (2x, −1x, −2x). Die tägliche Neugewichtung kann zu Abweichungen führen.",
+          "explanation": "Selbst bei einem seitwärts laufenden Index kann ein 2x-ETF langfristig Geld verlieren. Solche Instrumente eignen sich eher für kurze Zeiträume, nicht für langfristige Anlagen."
+        },
+        "es": {
+          "front": "ETF apalancado / inverso",
+          "back": "Productos que amplifican el movimiento diario de un índice (2x, −1x, −2x). El reajuste diario puede provocar desviaciones acumuladas.",
+          "explanation": "Incluso con un índice estable, un ETF 2x puede perder dinero con el tiempo. Son instrumentos para plazos cortos, no para invertir a largo plazo."
         }
       }
     },
@@ -335,6 +485,16 @@
           "front": "Money-market / short-term ETF",
           "back": "Very low-risk funds tracking short-term rates (bonds under one year). Acts as a cash pocket inside a PEA.",
           "explanation": "Parking cash in a short-term ETF keeps you inside the tax wrapper while reducing rate risk."
+        },
+        "de": {
+          "front": "Geldmarkt- / Kurzfrist-ETF",
+          "back": "Fonds mit sehr geringem Risiko, die kurzfristige Zinssätze abbilden, etwa Anleihen mit Laufzeiten unter einem Jahr. Eine Liquiditätsreserve innerhalb eines PEA.",
+          "explanation": "Kurzfristige Anlagen können Liquidität innerhalb des steuerlichen Rahmens halten und zugleich das Zinsänderungsrisiko verringern."
+        },
+        "es": {
+          "front": "ETF monetario / a corto plazo",
+          "back": "Fondos de riesgo muy bajo que siguen los tipos de interés a corto plazo, por ejemplo bonos con vencimiento inferior a un año. Pueden servir como reserva de efectivo dentro de un PEA.",
+          "explanation": "Mantener efectivo en un ETF a corto plazo permite permanecer dentro del marco fiscal y reducir el riesgo de tipos de interés."
         }
       }
     },
@@ -357,6 +517,16 @@
           "front": "Sector ETF",
           "back": "An ETF focused on a single sector (telecoms, insurance, healthcare...). High potential but higher volatility and reduced diversification.",
           "explanation": "Reserve them for the satellite part of your portfolio, never the core."
+        },
+        "de": {
+          "front": "Branchen-ETF",
+          "back": "Ein ETF, der sich auf eine Branche wie Telekommunikation, Versicherungen oder Gesundheit konzentriert. Hohes Potenzial, aber mehr Volatilität und weniger Diversifikation.",
+          "explanation": "Branchen-ETF sollten eher den Satellitenanteil des Portfolios bilden, nicht den Kern."
+        },
+        "es": {
+          "front": "ETF sectorial",
+          "back": "ETF centrado en un sector, como telecomunicaciones, seguros o salud. Puede ofrecer potencial, pero con mayor volatilidad y menor diversificación.",
+          "explanation": "Conviene reservarlos para la parte satélite de la cartera, nunca para el núcleo."
         }
       }
     },
@@ -377,6 +547,16 @@
           "front": "Luxury ETF",
           "back": "A global basket of luxury goods companies (LVMH, Hermès, Kering...). Exceptional margins.",
           "explanation": "Luxury combines pricing power with wealthy-consumer growth, but stays sensitive to the world economy and China."
+        },
+        "de": {
+          "front": "Luxus-ETF",
+          "back": "Ein globaler Korb von Luxusgüterunternehmen wie LVMH, Hermès und Kering, die häufig hohe Margen erzielen.",
+          "explanation": "Luxus profitiert von Preissetzungsmacht und dem Wachstum wohlhabender Verbraucher, bleibt aber von der Weltwirtschaft und China abhängig."
+        },
+        "es": {
+          "front": "ETF de lujo",
+          "back": "Una cesta mundial de empresas de artículos de lujo, como LVMH, Hermès y Kering, con márgenes habitualmente elevados.",
+          "explanation": "El lujo combina capacidad para fijar precios con el crecimiento del consumo de alto poder adquisitivo, pero sigue expuesto a la economía mundial y a China."
         }
       }
     },
@@ -398,6 +578,16 @@
           "front": "S&P 500",
           "back": "The index of the 500 largest US companies: the global benchmark for large-cap performance.",
           "explanation": "The top 7 tech stocks now weigh over 30% of the index."
+        },
+        "de": {
+          "front": "S&P 500",
+          "back": "Index der 500 größten US-Unternehmen und weltweiter Referenzwert für die Entwicklung großer Unternehmen.",
+          "explanation": "Die sieben größten Technologiewerte machen inzwischen mehr als 30 % des Index aus."
+        },
+        "es": {
+          "front": "S&P 500",
+          "back": "Índice de las 500 mayores empresas estadounidenses y referencia mundial para medir la evolución de las grandes compañías.",
+          "explanation": "Las siete mayores empresas tecnológicas representan actualmente más del 30 % del índice."
         }
       }
     },
@@ -420,6 +610,16 @@
           "front": "CAC 40",
           "back": "The index of the 40 largest companies listed on Euronext Paris. The barometer of the French economy.",
           "explanation": "The total-return CAC 40 historically beats the price index."
+        },
+        "de": {
+          "front": "CAC 40",
+          "back": "Index der 40 größten an Euronext Paris notierten Unternehmen und wichtiger Gradmesser der französischen Wirtschaft.",
+          "explanation": "Der CAC 40 mit reinvestierten Dividenden hat sich historisch besser entwickelt als der reine Kursindex."
+        },
+        "es": {
+          "front": "CAC 40",
+          "back": "Índice de las 40 mayores empresas cotizadas en Euronext París y termómetro de la economía francesa.",
+          "explanation": "Históricamente, el CAC 40 con dividendos reinvertidos supera al índice que solo refleja los precios."
         }
       }
     },
@@ -443,6 +643,16 @@
           "front": "Europe / Eurozone",
           "back": "Indices like STOXX Europe 600 (600 companies, 17 countries) or Euro Stoxx 50 (50 eurozone blue chips).",
           "explanation": "Nearby geographic diversification, PEA-eligible, with lower valuations than the US."
+        },
+        "de": {
+          "front": "Europa / Eurozone",
+          "back": "Indizes wie der STOXX Europe 600 mit 600 Unternehmen aus 17 Ländern oder der Euro Stoxx 50 mit 50 führenden Unternehmen der Eurozone.",
+          "explanation": "Bietet geografische Diversifikation in der Nähe, ist für einen PEA geeignet und weist oft niedrigere Bewertungen als der US-Markt auf."
+        },
+        "es": {
+          "front": "Europa / zona euro",
+          "back": "Índices como el STOXX Europe 600 (600 empresas de 17 países) o el Euro Stoxx 50 (50 grandes compañías de la zona euro).",
+          "explanation": "Ofrece diversificación geográfica cercana, puede ser elegible para un PEA y suele presentar valoraciones inferiores a las de Estados Unidos."
         }
       }
     },
@@ -464,6 +674,16 @@
           "front": "Emerging markets",
           "back": "China, India, Taiwan, Brazil... Stronger economic growth but higher volatility and political risk.",
           "explanation": "The 'dynamic' slice of a portfolio: size it carefully (5-15%)."
+        },
+        "de": {
+          "front": "Schwellenländer",
+          "back": "China, Indien, Taiwan, Brasilien und andere Länder: höheres Wirtschaftswachstum, aber auch stärkere Schwankungen und politische Risiken.",
+          "explanation": "Der dynamische Anteil eines Portfolios sollte sorgfältig bemessen werden, beispielsweise mit 5–15 %."
+        },
+        "es": {
+          "front": "Mercados emergentes",
+          "back": "China, India, Taiwán, Brasil y otros países: mayor crecimiento económico, pero también más volatilidad y riesgo político.",
+          "explanation": "Son la parte dinámica de una cartera; conviene limitar su peso con cuidado, por ejemplo al 5–15 %."
         }
       }
     },
@@ -486,6 +706,16 @@
           "front": "Asia / Japan",
           "back": "Exposure to the Japanese market (TOPIX, Nikkei) or Asia ex-Japan (Korea, Taiwan, Australia...).",
           "explanation": "Japan swings with the yen: an unhedged EUR ETF adds a currency bet."
+        },
+        "de": {
+          "front": "Asien / Japan",
+          "back": "Anlage im japanischen Markt (TOPIX, Nikkei) oder in Asien ohne Japan, etwa Korea, Taiwan und Australien.",
+          "explanation": "Japan reagiert stark auf den Yen: Ein nicht abgesicherter Euro-ETF bringt zusätzlich ein Währungsrisiko mit sich."
+        },
+        "es": {
+          "front": "Asia / Japón",
+          "back": "Exposición al mercado japonés (TOPIX, Nikkei) o a Asia excluido Japón, como Corea, Taiwán y Australia.",
+          "explanation": "Japón se mueve con el yen: un ETF en euros sin cobertura añade una apuesta por la divisa."
         }
       }
     },
@@ -507,6 +737,16 @@
           "front": "ACWI",
           "back": "All Country World Index: developed AND emerging markets in one index. Maximum global diversification in one product.",
           "explanation": "About 85% developed / 15% emerging. A single ACWI ETF can be the entire core of a passive portfolio."
+        },
+        "de": {
+          "front": "ACWI",
+          "back": "All Country World Index: ein Index mit Industrie- und Schwellenländern. Sehr breite globale Diversifikation in einem Produkt.",
+          "explanation": "Etwa 85 % entfallen auf Industrieländer und 15 % auf Schwellenländer. Ein einzelner ACWI-ETF kann den Kern eines passiven Portfolios bilden."
+        },
+        "es": {
+          "front": "ACWI",
+          "back": "All Country World Index: un índice que reúne mercados desarrollados y emergentes. Ofrece una diversificación mundial muy amplia en un solo producto.",
+          "explanation": "Aproximadamente el 85 % corresponde a mercados desarrollados y el 15 % a emergentes. Un único ETF ACWI puede formar el núcleo de una cartera pasiva."
         }
       }
     },
@@ -528,6 +768,16 @@
           "front": "Tech / Growth",
           "back": "Innovation-focused indices (NASDAQ-100...). Historically strong performers, but rich valuations and high volatility.",
           "explanation": "Watch concentration: the NASDAQ-100 is dominated by 5-6 names."
+        },
+        "de": {
+          "front": "Technologie / Wachstum",
+          "back": "Auf Innovation ausgerichtete Indizes wie der NASDAQ-100 erzielten historisch starke Ergebnisse, weisen aber oft hohe Bewertungen und starke Schwankungen auf.",
+          "explanation": "Achten Sie auf Konzentration: Der NASDAQ-100 wird von fünf bis sechs Unternehmen dominiert."
+        },
+        "es": {
+          "front": "Tecnología / crecimiento",
+          "back": "Índices centrados en la innovación, como el NASDAQ-100, han obtenido históricamente buenos resultados, pero suelen tener valoraciones elevadas y mucha volatilidad.",
+          "explanation": "Vigile la concentración: entre cinco y seis empresas dominan el NASDAQ-100."
         }
       }
     },
@@ -548,6 +798,16 @@
           "front": "Compound interest",
           "back": "Earning returns on your returns: growth becomes exponential over time.",
           "explanation": "€10,000 at 7% a year becomes ≈ €40,000 in 20 years and ≈ €160,000 in 40 years."
+        },
+        "de": {
+          "front": "Zinseszins",
+          "back": "Rendite auf bereits erzielte Renditen: Das Wachstum beschleunigt sich im Laufe der Zeit.",
+          "explanation": "10.000 € bei 7 % jährlich werden in 20 Jahren zu etwa 40.000 € und in 40 Jahren zu etwa 160.000 €."
+        },
+        "es": {
+          "front": "Interés compuesto",
+          "back": "Obtener rendimientos sobre los rendimientos anteriores: el crecimiento se acelera con el tiempo.",
+          "explanation": "10.000 € al 7 % anual se convierten en unos 40.000 € en 20 años y unos 160.000 € en 40 años."
         }
       }
     },
@@ -569,6 +829,16 @@
           "front": "Beta (β)",
           "back": "Measures an asset's sensitivity to market moves. β < 1: less volatile than the market; β > 1: amplified.",
           "explanation": "A World ETF has a beta near 1 by construction."
+        },
+        "de": {
+          "front": "Beta (β)",
+          "back": "Misst, wie empfindlich ein Vermögenswert auf Marktbewegungen reagiert. β < 1: weniger volatil als der Markt; β > 1: stärkere Bewegungen.",
+          "explanation": "Ein World-ETF hat konstruktionsbedingt ungefähr ein Beta von 1."
+        },
+        "es": {
+          "front": "Beta (β)",
+          "back": "Mide la sensibilidad de un activo a los movimientos del mercado. β < 1: menos volátil que el mercado; β > 1: movimientos amplificados.",
+          "explanation": "Por construcción, un ETF mundial suele tener una beta cercana a 1."
         }
       }
     },
@@ -590,6 +860,16 @@
           "front": "P/E (Price Earnings)",
           "back": "How many years of earnings you pay to buy a share: price ÷ earnings per share.",
           "explanation": "P/E < 15: cheap-ish; 15-25: reasonable; > 25: expensive (or high growth expected)."
+        },
+        "de": {
+          "front": "Kurs-Gewinn-Verhältnis (KGV)",
+          "back": "Wie viele Jahre Gewinn man rechnerisch für eine Aktie bezahlt: Aktienkurs geteilt durch Gewinn je Aktie.",
+          "explanation": "Ein KGV unter 15 gilt oft als eher günstig, 15–25 als moderat und über 25 als teuer – oder als Hinweis auf erwartetes Wachstum."
+        },
+        "es": {
+          "front": "PER (precio/beneficio)",
+          "back": "Cuántos años de beneficios se pagan para comprar una acción: precio dividido por beneficio por acción.",
+          "explanation": "Un PER inferior a 15 suele considerarse relativamente bajo, entre 15 y 25 moderado y superior a 25 elevado, o indicativo de un crecimiento esperado."
         }
       }
     }
